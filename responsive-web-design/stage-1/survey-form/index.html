@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>freeCodeCamp Survey</title>
+	</head>
+	<body>
+		<h1 id="title">freeCodeCamp Survey Form</h1>
+		<p id="description">
+			Thank you for taking the time to help us improve the platform
+		</p>
+		<form id="survey-form">
+			<label for="name-label" id="name-label">Your Name: </label>
+			<input type="text" placeholder="Your Name" id="name" required />
+			<label for="email-label" id="email-label">Your Email: </label>
+			<input type="email" placeholder="Your Email" id="email" required />
+			<label for="number-label" id="number-label">Your Number: </label>
+			<input
+				type="number"
+				placeholder="Your Number"
+				id="number"
+				min="12"
+				max="13"
+				required
+			/>
+			<select name="dropdown" id="dropdown">
+				<option value="challenge">Challenge</option>
+				<option value="project">Project</option>
+			</select>
+
+			<input type="radio" name="group" value="front-end projects" />
+			<label for="fullstack-projects"> Frontend Projects</label>
+
+			<input type="radio" name="group" value="fullstack projects" />
+			<label for="fullstack-projects"> Fullstack Projects</label>
+
+			<input type="checkbox" name="group" value="fullstack projects" />
+			<label for="fullstack-projects"> Vue</label>
+			<input type="checkbox" name="group" value="fullstack projects" />
+			<label for="fullstack-projects"> Python</label>
+
+			<textarea name="" id="" cols="30" rows="10"></textarea>
+
+			<input type="submit" id="submit" />
+		</form>
+	</body>
+</html>
