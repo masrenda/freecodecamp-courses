@@ -2,7 +2,7 @@
     <img src="https://i.postimg.cc/brpV1vM8/image.png" />
 </p>
 
-## Javascript Algorithms and Data Structures (Stage 1 - Basic Javascript)
+<h2 align="center">(Stage 1 - Basic Javascript)</h2>
 
 #### 01 - Comment Your Javascript Code
 
