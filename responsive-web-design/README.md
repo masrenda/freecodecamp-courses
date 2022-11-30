@@ -31,6 +31,6 @@ Finally, you'll learn how to make webpages that respond to different screen size
   :white_check_mark: Learn CSS Grid by Building a Magazine <br>
   :clock10: Product Landing Page
 - ### [Stage 5]()
-  :clock10: Learn Css Animation by Building a Ferris Wheel <br>
+  :clock10: Learn CSS Animation by Building a Ferris Wheel <br>
   :clock10: Learn CSS Transforms by Building a Penguin <br>
   :clock10: Personal Portfolio Webpage
