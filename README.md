@@ -4,6 +4,8 @@
 
 This will be a useful repository for beginners who struggle to complete challenges at freeCodeCamp.
 
+> This repository is still in progress.
+
 ## Roadmap
 
 - [Responsive Web Design](https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design)
