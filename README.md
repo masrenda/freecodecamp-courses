@@ -8,8 +8,8 @@ This will be a useful repository for beginners who struggle to complete challeng
 
 ## Roadmap
 
-- [Responsive Web Design](https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design)
+- [Responsive Web Design](https://github.com/Kroixyz/freecodecamp-courses/blob/master/responsive-web-design/README.md)
 
-- [Javascript Algorithms and Data Structures](https://github.com/Kroixyz/freecodecamp-courses/tree/master/js-algorithms-and-data-structures)
+- [Javascript Algorithms and Data Structures](https://github.com/Kroixyz/freecodecamp-courses/blob/master/js-algorithms-and-data-structures/README.md)
 
 - [...](https://www.google.com)
