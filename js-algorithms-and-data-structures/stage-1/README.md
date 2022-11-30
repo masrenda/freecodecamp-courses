@@ -1,5 +1,3 @@
-[![image.png](https://i.postimg.cc/brpV1vM8/image.png)](https://postimg.cc/zb2krq8P)
-
 <p align="center">
     <img src="https://i.postimg.cc/brpV1vM8/image.png" />
 </p>

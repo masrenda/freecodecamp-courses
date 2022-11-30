@@ -1,4 +1,6 @@
-[![Free-Code-Camp-logo-svg-1.png](https://i.postimg.cc/Kc69TdfV/Free-Code-Camp-logo-svg-1.png)](https://postimg.cc/dD9mPNzm)
+<p align="center">
+    <img src="https://i.postimg.cc/Kc69TdfV/Free-Code-Camp-logo-svg-1.png" />
+</p>
 
 This will be a useful repository for beginners who struggle to complete challenges at freeCodeCamp.
 

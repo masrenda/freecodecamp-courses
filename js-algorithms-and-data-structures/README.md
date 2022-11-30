@@ -1,4 +1,6 @@
-[![image.png](https://i.postimg.cc/0yFRvh8C/image.png)](https://postimg.cc/68r1Lj47)
+<p align="center">
+    <img src="https://i.postimg.cc/0yFRvh8C/image.png" />
+</p>
 
 ## Javascript Algorithms and Data Structures
 
