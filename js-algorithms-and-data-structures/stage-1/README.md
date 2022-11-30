@@ -1,6 +1,6 @@
 [![image.png](https://i.postimg.cc/brpV1vM8/image.png)](https://postimg.cc/zb2krq8P)
 
-## Javascript Algorithms and Data Structures (Stage 1)
+## Javascript Algorithms and Data Structures (Stage 1 - Basic Javascript)
 
 #### 01 - Comment Your Javascript Code
 
