@@ -1,6 +1,6 @@
 # Javascript Algorithms and Data Structures (Stage 1)
 
-### Comment Your Javascript Code
+### 01 - Comment Your Javascript Code
 
 ```js
 // This is an in-line comment.
@@ -9,13 +9,13 @@
 multi-line comment */
 ```
 
-### Declare Javascript Variables
+### 02 - Declare Javascript Variables
 
 ```js
 var myName;
 ```
 
-### Storing Values with The Assignment Operator
+### 03 - Storing Values with The Assignment Operator
 
 ```js
 var a;
@@ -24,7 +24,7 @@ var myVar = 7;
 a = myVar;
 ```
 
-### Assigning The Value of One Variable to Another
+### 04 - Assigning The Value of One Variable to Another
 
 ```js
 var a;
@@ -34,13 +34,13 @@ var b;
 b = a;
 ```
 
-### Initializing Variables with The Assignment Operator
+### 05 - Initializing Variables with The Assignment Operator
 
 ```js
 var a = 9;
 ```
 
-### Declare String Variables
+### 06 - Declare String Variables
 
 ```js
 var myFirstName = "Jhon";
@@ -49,7 +49,7 @@ var myLastName = "Doe";
 myFirstName + myLastName;
 ```
 
-### Understanding Uninitialized Variables
+### 07 - Understanding Uninitialized Variables
 
 ```js
 var a;
@@ -65,7 +65,7 @@ b = b + 5;
 c = c + " String!";
 ```
 
-### Understanding Case Sensitivity in Variables
+### 08 - Understanding Case Sensitivity in Variables
 
 ```js
 var studlyCapVar;
@@ -77,14 +77,14 @@ properCamelCase = "A String";
 titleCaseOver = 9000;
 ```
 
-### Explore Differences between The var and let Keywords
+### 09 - Explore Differences between The var and let Keywords
 
 ```js
 let catName = "Oliver";
 let catSound = "Meow!";
 ```
 
-### Declare a read-only Variable with The const Keyword
+### 10 - Declare a read-only Variable with The const Keyword
 
 ```js
 const FCC = "freeCodeCamp";
@@ -94,14 +94,68 @@ fact = "is awesome!";
 console.log(FCC, fact);
 ```
 
-### Add Two Number with Javascript
+### 11 - Add Two Number with Javascript
 
 ```js
 const sum = 20 + 0;
 ```
 
-### Substract One Number from another with Javascript
+### 12 - Subtract One Number from Another with Javascript
 
 ```js
 const difference = 45 - 33;
+```
+
+### 13 - Multiply Two Numbers with Javascript
+
+```js
+const product = 8 * 10;
+```
+
+### 14 - Divide One Number by Another with Javascript
+
+```js
+const quotient = 66 / 33;
+```
+
+## 15 - Increment a Number with Javascript
+
+```js
+let myVar = 87;
+
+myVar++;
+```
+
+## 16 - Decrement a Number with Javascript
+
+```js
+let myVar = 11;
+
+myVar--;
+```
+
+## 17 - Create Decimal Number with Javascript
+
+```js
+const ourDecimal = 5.7;
+
+const myDecimal = 5.7;
+```
+
+## 18 - Multiply Two Decimals with JavaScript
+
+```js
+const product = 2.0 * 2.5;
+```
+
+## 19 - Divide One Decimal by Another with Javascript
+
+```js
+const quotient = 4.4 / 2.0;
+```
+
+## 20 - Finding a Remainder in JavaScript
+
+```js
+const remainder = 2 % 6;
 ```
