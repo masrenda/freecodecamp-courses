@@ -9,28 +9,28 @@ Finally, you'll learn how to make webpages that respond to different screen size
 
 ## Roadmap
 
-- [Stage 1](https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design/stage-1)
-  - :white_check_mark: Learn HTML by Building a Cat Photo App
-  - :white_check_mark: Learn Basic CSS by Building a Cafe Menu
-  - :white_check_mark: Learn CSS Colors by Building a Set of Colored
-  - :white_check_mark: Learn HTML Forms by Building a Registration Form
-  - :white_check_mark: Survey Form
-- [Stage 2](https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design/stage-2)
-  - :white_check_mark: Learn the CSS Box Model by building a Rothko Painting
-  - :white_check_mark: Learn CSS Flexbox by Building a Photo Gallery
-  - :white_check_mark: Learn Typography by Building a Nutrition Label
-  - :white_check_mark: Learn Accessibility by Building a Quiz
-  - :white_check_mark:Tribute Page
-- [Stage 3](https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design/stage-3)
-  - :white_check_mark: Learn More About CSS Pseudo Selectors by Building a Balance Sheet
-  - :white_check_mark: Learn Intermediate CSS by Building a Picasso Painting
-  - :white_check_mark: Learn Responsive Web Design by Building a Piano
-  - :clock10: Technical Documentation Page
-- [Stage 4]()
-  - :white_check_mark: Learn CSS Variables by Building a City Skyline
-  - :white_check_mark: Learn CSS Grid by Building a Magazine
-  - :clock10: Product Landing Page
-- [Stage 5]()
-  - :clock10: Learn Css Animation by Building a Ferris Wheel
-  - :clock10: Learn CSS Transforms by Building a Penguin
-  - :clock10: Personal Portfolio Webpage
+- ### [Stage 1](https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design/stage-1)
+  :white_check_mark: Learn HTML by Building a Cat Photo App <br>
+  :white_check_mark: Learn Basic CSS by Building a Cafe Menu <br>
+  :white_check_mark: Learn CSS Colors by Building a Set of Colored <br>
+  :white_check_mark: Learn HTML Forms by Building a Registration Form <br>
+  :white_check_mark: Survey Form
+- ### [Stage 2](https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design/stage-2)
+  :white_check_mark: Learn the CSS Box Model by building a Rothko Painting <br>
+  :white_check_mark: Learn CSS Flexbox by Building a Photo Gallery <br>
+  :white_check_mark: Learn Typography by Building a Nutrition Label <br>
+  :white_check_mark: Learn Accessibility by Building a Quiz <br>
+  :white_check_mark:Tribute Page
+- ### [Stage 3](https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design/stage-3)
+  :white_check_mark: Learn More About CSS Pseudo Selectors by Building a Balance Sheet <br>
+  :white_check_mark: Learn Intermediate CSS by Building a Picasso Painting <br>
+  :white_check_mark: Learn Responsive Web Design by Building a Piano <br>
+  :clock10: Technical Documentation Page
+- ### [Stage 4]()
+  :white_check_mark: Learn CSS Variables by Building a City Skyline <br>
+  :white_check_mark: Learn CSS Grid by Building a Magazine <br>
+  :clock10: Product Landing Page
+- ### [Stage 5]()
+  :clock10: Learn Css Animation by Building a Ferris Wheel <br>
+  :clock10: Learn CSS Transforms by Building a Penguin <br>
+  :clock10: Personal Portfolio Webpage
