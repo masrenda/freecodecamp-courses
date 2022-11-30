@@ -8,4 +8,4 @@ This will be a useful repository for beginners who struggle to complete challeng
 
 - [Javascript Algorithms and Data Structures](https://github.com/Kroixyz/freecodecamp-courses/tree/master/js-algorithms-and-data-structures)
 
--[...](https://www.google.com)
+- [...](https://www.google.com)
