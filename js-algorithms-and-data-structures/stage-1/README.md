@@ -1,4 +1,4 @@
-[![image.png](https://i.postimg.cc/0yT6tKCY/image.png)](https://postimg.cc/hX0Pvj6v)
+[![image.png](https://i.postimg.cc/brpV1vM8/image.png)](https://postimg.cc/zb2krq8P)
 
 ## Javascript Algorithms and Data Structures (Stage 1)
 
