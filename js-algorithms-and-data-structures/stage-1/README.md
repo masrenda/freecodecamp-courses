@@ -159,3 +159,89 @@ const quotient = 4.4 / 2.0;
 ```js
 const remainder = 2 % 6;
 ```
+
+## 21 - Compound Assignment with Augmented Addition
+
+```js
+let a = 3;
+let b = 17;
+let c = 12;
+
+a += 12;
+b += 9;
+c += 7;
+```
+
+## 22 - Compound Assignment with Augmented Subtraction
+
+```js
+let a = 11;
+let b = 9;
+let c = 3;
+
+a -= 6;
+b -= 15;
+c -= 1;
+```
+
+## 23 - Compound Assignment with Augmented Multiplication
+
+```js
+let a = 5;
+let b = 12;
+let c = 4.6;
+
+a *= 5;
+b *= 3;
+c *= 10;
+```
+
+## 24 - Compound Assignment with Augmented Division
+
+```js
+let a = 48;
+let b = 108;
+let c = 33;
+
+a /= 12;
+b /= 4;
+c /= 11;
+```
+
+## 25 - Escaping Literal Quotes in Strings
+
+```js
+const myStr = 'I am a "double quoted" string inside "double quotes".';
+```
+
+## 26 - Quoting Strings with Single Quotes
+
+```js
+const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+```
+
+## 27 - Escape Sequences in Strings
+
+```js
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+```
+
+## 28 - Concatenating Strings with Plus Operator
+
+```js
+const myStr = "This is the start. " + "This is the end.";
+```
+
+## 29 - Concatenating Strings with Plus Equal Operator
+
+```js
+let myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+```
+
+## 30 - Concatenating Strings with Variables
+
+```js
+const myName = "Jhon";
+const myStr = "My name is " + myName + "and I am well!";
+```
