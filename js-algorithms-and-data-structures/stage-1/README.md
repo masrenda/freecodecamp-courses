@@ -20,13 +20,16 @@ multi-line comment */
 
 </details>
 
-### 2. Declare Javascript Variables
+<details>
+<summary>2. Declare Javascript Variables</summary>
 
 Use the `var` keyword to create a variable called `myName`.
 
 ```js
 var myName;
 ```
+
+</details>
 
 ### 3. Storing Values with The Assignment Operator
 
