@@ -7,14 +7,14 @@ In this course, you'll learn fundamental programming concepts in JavaScript. You
 
 ## Roadmap
 
-#### 01 - Comment Your Javascript Code
+### 01 - Comment Your Javascript Code
 
-```js
-// This is an in-line comment.
-
-/* This is a
-multi-line comment */
-```
+> ```js
+> // This is an in-line comment.
+>
+> /* This is a
+> multi-line comment */
+> ```
 
 #### 02 - Declare Javascript Variables
 
