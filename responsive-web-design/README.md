@@ -10,13 +10,14 @@ Finally, you'll learn how to make webpages that respond to different screen size
 ## Roadmap
 
 - ### [Stage 1](https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design/stage-1)
-<detailssad markdown="4">
+<details>
+<summary>You'll Learn this</summary>
 - [x] Learn HTML by Building a Cat Photo App
 - [x] Learn Basic CSS by Building a Cafe Menu
 - [x] Learn CSS Colors by Building a Set of Colored
 - [x] Learn HTML Forms by Building a Registration Form
 - [x] Survey Form
-      </detailssad>
+</details>
 
 - ### [Stage 2](https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design/stage-2)
 - [x] Learn the CSS Box Model by building a Rothko Painting
