@@ -7,8 +7,8 @@ In this course, you'll learn fundamental programming concepts in JavaScript. You
 
 ## Roadmap
 
-### 1. Comment Your Javascript Code
-
+<details>
+<summary><h3>1. Comment Your Javascript Code</h3></summary>
 Try creating one of each type of comment.
 
 ```js
@@ -17,6 +17,8 @@ Try creating one of each type of comment.
 /* This is a
 multi-line comment */
 ```
+
+</details>
 
 ### 2. Declare Javascript Variables
 
