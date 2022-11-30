@@ -9,7 +9,7 @@ Along the way, you'll also learn two important programming styles or paradigms: 
 
 ## Roadmap
 
-- ### [Stage 1](https://github.com/Kroixyz/freecodecamp-courses/tree/master/js-algorithms-and-data-structures/stage-1) <br>
+- ### [Stage 1](https://github.com/Kroixyz/freecodecamp-courses/blob/master/js-algorithms-and-data-structures/stage-1/README.md) <br>
   :clock10: Basic Javascript
 - ### [Stage 2]() <br>
   :clock10: ES6
