@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://i.postimg.cc/Kc69TdfV/Free-Code-Camp-logo-svg-1.png" />
+    <img src="https://i.postimg.cc/K8L1K766/1-TKXSm-O-vghw2-G5a-DRcf2-Ww.webp" />
 </p>
 
 This will be a useful repository for beginners who struggle to complete challenges at freeCodeCamp.
