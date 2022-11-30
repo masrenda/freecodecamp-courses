@@ -10,11 +10,11 @@ Finally, you'll learn how to make webpages that respond to different screen size
 ## Roadmap
 
 - ### [Stage 1](https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design/stage-1)
-  :white_check_mark: Learn HTML by Building a Cat Photo App <br>
-  :white_check_mark: Learn Basic CSS by Building a Cafe Menu <br>
-  :white_check_mark: Learn CSS Colors by Building a Set of Colored <br>
-  :white_check_mark: Learn HTML Forms by Building a Registration Form <br>
-  :white_check_mark: Survey Form
+- [x] Learn HTML by Building a Cat Photo App <br>
+- [x] Learn Basic CSS by Building a Cafe Menu <br>
+- [x] :white_check_mark: Learn CSS Colors by Building a Set of Colored <br>
+- [x] :white_check_mark: Learn HTML Forms by Building a Registration Form <br>
+- [x] :white_check_mark: Survey Form
 - ### [Stage 2](https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design/stage-2)
   :white_check_mark: Learn the CSS Box Model by building a Rothko Painting <br>
   :white_check_mark: Learn CSS Flexbox by Building a Photo Gallery <br>
