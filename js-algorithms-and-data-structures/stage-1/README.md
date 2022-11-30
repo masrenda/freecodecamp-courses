@@ -21,7 +21,11 @@ multi-line comment */
 </details>
 
 <details>
-<summary>2. Declare Javascript Variables</summary>
+<summary>
+
+### 2. Declare Javascript Variables
+
+</summary>
 
 Use the `var` keyword to create a variable called `myName`.
 
