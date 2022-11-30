@@ -2,8 +2,6 @@
     <img src="https://i.postimg.cc/brpV1vM8/image.png" />
 </p>
 
-## (Stage 1 - Basic Javascript)
-
 #### 01 - Comment Your Javascript Code
 
 ```js
