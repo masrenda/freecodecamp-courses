@@ -10,7 +10,8 @@ Finally, you'll learn how to make webpages that respond to different screen size
 ## Roadmap
 
 <!-- - ### [Stage 1]() -->
-<details><summary><h4><a href="https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design/stage-1">Stage 1</a></h4></summary>
+<details>
+<summary><h3>Stage 1</h3></summary>
 
 - [x] Learn HTML by Building a Cat Photo App
 - [x] Learn Basic CSS by Building a Cafe Menu
