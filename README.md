@@ -4,7 +4,7 @@
 
 This will be a useful repository for beginners who struggle to complete challenges at freeCodeCamp.
 
-> This repository is still in progress.
+> _This repository is still in progress._
 
 ## Roadmap
 
