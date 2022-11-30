@@ -246,9 +246,44 @@ let myStr = "This is the first sentence. ";
 myStr += "This is the second sentence.";
 ```
 
-### 30 - Concatenating Strings with Variables
+### 30 - Constructing Strings with Variables
 
 ```js
 const myName = "Jhon";
 const myStr = "My name is " + myName + "and I am well!";
+```
+
+### 31 - Appending Variables to Strings
+
+```js
+const someAdjective = "Hello Jhon Doe";
+let myStr = "Learning to code is ";
+
+myStr += someAdjective;
+```
+
+### 32 - Find the Length of a String
+
+```js
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+lastNameLength = lastName.length;
+```
+
+### 33 - Use Bracket Notation to Find the First Character in a String
+
+```js
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+firstLetterOfLastName = lastName[0];
+```
+
+### 34 - Understand String Immutability
+
+```js
+let myStr = "Jello World";
+
+myStr = "Hello World";
 ```
