@@ -11,7 +11,7 @@ Finally, you'll learn how to make webpages that respond to different screen size
 
 <!-- - ### [Stage 1]() -->
 <details>
-<summary><h3>Stage 1</h3></summary>
+<summary>Stage 1</summary>
 
 - [x] Learn HTML by Building a Cat Photo App
 - [x] Learn Basic CSS by Building a Cafe Menu
