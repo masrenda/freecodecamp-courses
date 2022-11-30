@@ -287,3 +287,112 @@ let myStr = "Jello World";
 
 myStr = "Hello World";
 ```
+
+### 34 - Use Bracket Notation to Find the Nth Character in a String
+
+```js
+const lastName = "Lovelace";
+
+const thirdLetterOfLastName = lastName[2];
+```
+
+### 35 - Use Bracket Notation to Find the Last Character in a String
+
+```js
+const lastName = "Lovelace";
+
+const lastLetterOfLastName = lastName[lastName.length - 1];
+```
+
+### 36 - Use Bracket Notation to Find the Nth-to-Last Character in a String
+
+```js
+const lastName = "Lovelace";
+
+const secondToLastLetterOfLastName = lastName[lastName.length - 2];
+```
+
+### 37 - Word Blanks
+
+```js
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+const wordBlanks = myNoun + " " + myAdjective + " " + myVerb + " " + myAdverb;
+```
+
+### 38 - Store Multiple Values in one Variable using JavaScript Arrays
+
+```js
+const myArray = ["jhon", 2];
+```
+
+### 39 - Nest one Array within Another Array
+
+```js
+const myArray = [["Jhon"], ["Doe"]];
+```
+
+### 40 - Access Array Data with Indexes
+
+```js
+const myArray = [50, 60, 70];
+
+const myData = myArray[0];
+```
+
+### 41 - Modify Array Data With Indexes
+
+```js
+const myArray = [18, 64, 99];
+
+myArray[0] = 45;
+```
+
+### 42 - Access Multi-Dimensional Arrays With Indexes
+
+```js
+const myArray = [
+	[1, 2, 3],
+	[4, 5, 6],
+	[7, 8, 9],
+	[[10, 11, 12], 13, 14],
+];
+
+const myData = myArray[2][1];
+```
+
+### 43 - Manipulate Arrays With push()
+
+```js
+const myArray = [
+	["John", 23],
+	["cat", 2],
+];
+
+myArray.push(["dog", 3]);
+```
+
+### 44 - Manipulate Arrays With pop()
+
+```js
+const myArray = [
+	["John", 23],
+	["cat", 2],
+];
+
+const removedFromMyArray = myArray.pop();
+```
+
+### 45 - Manipulate Arrays With shift()
+
+```js
+const myArray = [
+	["John", 23],
+	["dog", 3],
+];
+
+const removedFromMyArray = myArray.shift();
+```
