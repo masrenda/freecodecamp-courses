@@ -1,7 +1,6 @@
 <p align="center">
     <img src="https://i.postimg.cc/brpV1vM8/image.png" />
 </p>
-
 <h2 align="center">(Stage 1 - Basic Javascript)</h2>
 
 #### 01 - Comment Your Javascript Code
