@@ -7,7 +7,9 @@ In this course, you'll learn fundamental programming concepts in JavaScript. You
 
 ## Roadmap
 
-### 01 - Comment Your Javascript Code
+### 1. Comment Your Javascript Code
+
+Try creating one of each type of comment.
 
 ```js
 // This is an in-line comment.
@@ -16,13 +18,17 @@ In this course, you'll learn fundamental programming concepts in JavaScript. You
 multi-line comment */
 ```
 
-### 02 - Declare Javascript Variables
+### 2. Declare Javascript Variables
+
+Use the `var` keyword to create a variable called `myName`.
 
 ```js
 var myName;
 ```
 
-### 03 - Storing Values with The Assignment Operator
+### 3. Storing Values with The Assignment Operator
+
+Assign the value `7` to variable `a`.
 
 ```js
 var a;
@@ -31,7 +37,9 @@ var myVar = 7;
 a = myVar;
 ```
 
-### 04 - Assigning The Value of One Variable to Another
+### 4. Assigning The Value of One Variable to Another
+
+Assign the contents of `a` to variable `b`.
 
 ```js
 var a;
@@ -41,13 +49,17 @@ var b;
 b = a;
 ```
 
-### 05 - Initializing Variables with The Assignment Operator
+### 5. Initializing Variables with The Assignment Operator
+
+Define `a` variable a with `var` and initialize it to a value of `9`.
 
 ```js
 var a = 9;
 ```
 
-### 06 - Declare String Variables
+### 6. Declare String Variables
+
+Create `two` new string variables: `myFirstName` and `myLastName` and assign them the values of your first and last name, respectively.
 
 ```js
 var myFirstName = "Jhon";
@@ -56,7 +68,9 @@ var myLastName = "Doe";
 myFirstName + myLastName;
 ```
 
-### 07 - Understanding Uninitialized Variables
+### 7. Understanding Uninitialized Variables
+
+Initialize the three variables `a`, `b`, and `c` with `5`, `10`, and `"I am a"` respectively so that they will not be `undefined`.
 
 ```js
 var a;
@@ -72,7 +86,9 @@ b = b + 5;
 c = c + " String!";
 ```
 
-### 08 - Understanding Case Sensitivity in Variables
+### 8. Understanding Case Sensitivity in Variables
+
+Modify the existing declarations and assignments so their names use _camelCase_. Do not create any new variables.
 
 ```js
 var studlyCapVar;
@@ -86,12 +102,16 @@ titleCaseOver = 9000;
 
 ### 09 - Explore Differences between The var and let Keywords
 
+Update the code so it only uses the `let` keyword.
+
 ```js
 let catName = "Oliver";
 let catSound = "Meow!";
 ```
 
 ### 10 - Declare a read-only Variable with The const Keyword
+
+Change the code so that all variables are declared using `let` or `const`. Use `let` when you want the variable to change, and `const` when you want the variable to remain constant. Also, rename variables declared with `const` to conform to common practices. Do not change the strings assigned to the variables.
 
 ```js
 const FCC = "freeCodeCamp";
