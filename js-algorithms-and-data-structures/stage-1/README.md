@@ -1,4 +1,4 @@
-# Javascript Algorithms and Data Structures
+# Javascript Algorithms and Data Structures (Stage 1)
 
 ### Comment Your Javascript Code
 
