@@ -737,7 +737,6 @@ Using `let` or `const`, declare a global variable named `myGlobal` outside of an
 Inside function `fun1`, assign `5` to `oopsGlobal` _without_ using the `var`, `let` or `const` keywords.
 
 ```js
-// Declare the myGlobal variable below this line
 let myGlobal = 10;
 
 function fun1() {
