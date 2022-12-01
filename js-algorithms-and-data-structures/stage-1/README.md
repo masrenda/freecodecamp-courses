@@ -53,7 +53,7 @@ In this course, you'll learn fundamental programming concepts in JavaScript. You
 44. [Manipulate Arrays With push()](#44-manipulate-arrays-with-push)
 45. [Manipulate Arrays With pop()](#45-manipulate-arrays-with-pop)
 46. [Manipulate Arrays With shift()](#46-manipulate-arrays-with-shift)
-47. [anipulate Arrays With unshift()](#47-manipulate-arrays-with-unshift)
+47. [Manipulate Arrays With unshift()](#47-manipulate-arrays-with-unshift)
 48. [Shopping List](#48-shopping-list)
 49. [Write Reusable JavaScript with Functions](#49-write-reusable-javascript-with-functions)
 50. [Passing Values to Functions with Arguments](#50-passing-values-to-functions-with-arguments)
