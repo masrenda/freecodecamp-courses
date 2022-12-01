@@ -67,6 +67,16 @@ In this course, you'll learn fundamental programming concepts in JavaScript. You
 58. [Understanding Boolean Values](#58-understanding-boolean-values)
 59. [Use Conditional Logic with If Statements](#59-use-conditional-logic-with-if-statements)
 60. [Comparison with the Equality Operator](#60-comparison-with-the-equality-operator)
+61. [Comparison with the Strict Equality Operator](#61-comparison-with-the-strict-equality-operator)
+62. [Practice comparing different values](#62-practice-comparing-different-values)
+63. [Comparison with the Inequality Operator](#63-comparison-with-the-inequality-operator)
+64. [Comparison with the Strict Inequality Operator](#64-comparison-with-the-strict-inequality-operator)
+65. [Comparison with the Greater Than Operator](#65-comparison-with-the-greater-than-operator)
+66. [Comparison with the Greater Than Or Equal To Operator](#66-comparison-with-the-greater-than-or-equal-to-operator)
+67. [Comparison with the Less Than Operator](#67-comparison-with-the-less-than-operator)
+68. [Comparison with the Less Than Or Equal To Operator](#68-comparison-with-the-less-than-or-equal-to-operator)
+69. [Comparisons with the Logical And Operator](#69-comparisons-with-the-logical-and-operator)
+70. [Comparisons with the Logical Or Operator](#70-comparisons-with-the-logical-or-operator)
 
 ## Roadmap
 
@@ -911,42 +921,194 @@ testEqual(10);
 
 [Back to Top](#table-of-contents)
 
-### 61.
+### 61. Comparison with the Strict Equality Operator
+
+Use the strict equality operator in the `if` statement so the function will return the string `Equal` when `val` is strictly equal to `7`.
+
+```js
+function testStrict(val) {
+	if (val === 7) {
+		return "Equal";
+	}
+	return "Not Equal";
+}
+
+testStrict(10);
+```
 
 [Back to Top](#table-of-contents)
 
-### 62.
+### 62. Practice comparing different values
+
+The `compareEquality` function in the editor compares two values using the equality operator. Modify the function so that it returns the string `Equal` only when the values are strictly equal.
+
+```js
+function compareEquality(a, b) {
+	if (a === b) {
+		return "Equal";
+	}
+	return "Not Equal";
+}
+
+compareEquality(10, "10");
+```
 
 [Back to Top](#table-of-contents)
 
-### 63.
+### 63. Comparison with the Inequality Operator
+
+Add the inequality operator `!=` in the `if` statement so that the function will return the string `Not Equal` when val is not equivalent to `99`.
+
+```js
+function testNotEqual(val) {
+	if (val != 99) {
+		return "Not Equal";
+	}
+	return "Equal";
+}
+
+testNotEqual(10);
+```
 
 [Back to Top](#table-of-contents)
 
-### 64.
+### 64. Comparison with the Strict Inequality Operator
+
+Add the strict inequality operator to the `if` statement so the function will return the string `Not Equal` when `val` is not strictly equal to `17`.
+
+```js
+function testStrictNotEqual(val) {
+	if (val !== 17) {
+		return "Not Equal";
+	}
+	return "Equal";
+}
+
+testStrictNotEqual(10);
+```
 
 [Back to Top](#table-of-contents)
 
-### 65.
+### 65. Comparison with the Greater Than Operator
+
+Add the greater than operator to the indicated lines so that the return statements make sense.
+
+```js
+function testGreaterThan(val) {
+	if (val > 100) {
+		return "Over 100";
+	}
+
+	if (val > 10) {
+		return "Over 10";
+	}
+
+	return "10 or Under";
+}
+
+testGreaterThan(10);
+```
 
 [Back to Top](#table-of-contents)
 
-### 66.
+### 66. Comparison with the Greater Than Or Equal To Operator
+
+Add the greater than or equal to operator to the indicated lines so that the return statements make sense.
+
+```js
+function testGreaterOrEqual(val) {
+	if (val >= 20) {
+		return "20 or Over";
+	}
+
+	if (val >= 10) {
+		return "10 or Over";
+	}
+
+	return "Less than 10";
+}
+
+testGreaterOrEqual(10);
+```
 
 [Back to Top](#table-of-contents)
 
-### 67.
+### 67. Comparison with the Less Than Operator
+
+Add the less than operator to the indicated lines so that the return statements make sense.
+
+```js
+function testLessThan(val) {
+	if (val < 25) {
+		return "Under 25";
+	}
+
+	if (val < 55) {
+		return "Under 55";
+	}
+
+	return "55 or Over";
+}
+
+testLessThan(10);
+```
 
 [Back to Top](#table-of-contents)
 
-### 68.
+### 68. Comparison with the Less Than Or Equal To Operator
+
+Add the less than or equal to operator to the indicated lines so that the return statements make sense.
+
+```js
+function testLessOrEqual(val) {
+	if (val <= 12) {
+		return "Smaller Than or Equal to 12";
+	}
+
+	if (val <= 24) {
+		return "Smaller Than or Equal to 24";
+	}
+
+	return "More Than 24";
+}
+
+testLessOrEqual(10);
+```
 
 [Back to Top](#table-of-contents)
 
-### 69.
+### 69. Comparisons with the Logical And Operator
+
+Replace the two if statements with one statement, using the `&&` operator, which will return the string `Yes` if `val` is less than or equal to `50` and greater than or equal to `25`. Otherwise, will return the string `No`.
+
+```js
+function testLogicalAnd(val) {
+	if (val <= 50 && val >= 25) {
+		return "Yes";
+	}
+
+	return "No";
+}
+
+testLogicalAnd(10);
+```
 
 [Back to Top](#table-of-contents)
 
-### 70.
+### 70. Comparisons with the Logical Or Operator
+
+Combine the two `if` statements into one statement which returns the string `Outside` if `val` is not between `10` and `20`, inclusive. Otherwise, return the string `Inside`.
+
+```js
+function testLogicalOr(val) {
+	if (val < 10 || val > 20) {
+		return "Outside";
+	}
+
+	return "Inside";
+}
+
+testLogicalOr(15);
+```
 
 [Back to Top](#table-of-contents)
