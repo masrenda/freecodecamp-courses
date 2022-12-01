@@ -7,6 +7,7 @@ This will be a useful repository for beginners who struggle to complete challeng
 > **_NOTE:_** _This repository is still in progress._
 
 <img src="https://img.shields.io/github/last-commit/Kroixyz/freecodecamp-courses?color=2a9d8f&logo=github&logoColor=f1faee&style=flat-square" />
+<img src="https://img.shields.io/badge/project-is%20coming-9f86c0?style=flat-square&logo=github" />
 
 ## Roadmap
 
