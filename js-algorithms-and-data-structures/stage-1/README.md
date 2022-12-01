@@ -716,43 +716,185 @@ functionWithArgs(7, 3);
 
 [Back to Top](#table-of-contents)
 
-### 51.
+### 51. Return a Value from a Function with Return
+
+Create a function `timesFive` that accepts one argument, multiplies it by `5`, and returns the new value.
+
+```js
+function timesFive(num) {
+	return num * 5;
+}
+
+timesFive(1);
+```
 
 [Back to Top](#table-of-contents)
 
-### 52.
+### 52. Global Scope and Functions
+
+Using `let` or `const`, declare a global variable named `myGlobal` outside of any function. Initialize it with a value of `10`.
+
+Inside function `fun1`, assign `5` to `oopsGlobal` _without_ using the `var`, `let` or `const` keywords.
+
+```js
+// Declare the myGlobal variable below this line
+let myGlobal = 10;
+
+function fun1() {
+	oopsGlobal = 5;
+}
+
+function fun2() {
+	var output = "";
+	if (typeof myGlobal != "undefined") {
+		output += "myGlobal: " + myGlobal;
+	}
+	if (typeof oopsGlobal != "undefined") {
+		output += " oopsGlobal: " + oopsGlobal;
+	}
+	console.log(output);
+}
+```
 
 [Back to Top](#table-of-contents)
 
 ### 53.
 
-[Back to Top](#table-of-contents)
+The editor has two `console.log`s to help you see what is happening. Check the console as you code to see how it changes. Declare a local variable `myVar` inside `myLocalScope` and run the tests.
 
-### 54.
+Note: The console will still display `ReferenceError: myVar is not defined`, but this will not cause the tests to fail.
 
-[Back to Top](#table-of-contents)
+```js
+function myLocalScope() {
+	let myVar = 12;
 
-### 55.
+	console.log("inside myLocalScope", myVar);
+}
+myLocalScope();
 
-[Back to Top](#table-of-contents)
-
-### 56.
-
-[Back to Top](#table-of-contents)
-
-### 57.
-
-[Back to Top](#table-of-contents)
-
-### 58.
+console.log("outside myLocalScope", myVar);
+```
 
 [Back to Top](#table-of-contents)
 
-### 59.
+### 54. Global vs. Local Scope in Functions
+
+Add a local variable to `myOutfit` function to override the value of `outerWear` with the string `sweater`.
+
+```js
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+	return "sweater";
+	return outerWear;
+}
+
+myOutfit();
+```
 
 [Back to Top](#table-of-contents)
 
-### 60.
+### 55. Understanding Undefined Value returned from a Function
+
+Create a function `addFive` without any arguments. This function adds 5 to the `sum` variable, but its returned value is `undefined`.
+
+```js
+let sum = 0;
+
+function addThree() {
+	sum = sum + 3;
+}
+
+function addFive() {
+	sum += 5;
+}
+
+addThree();
+addFive();
+```
+
+[Back to Top](#table-of-contents)
+
+### 56. Assignment with a Returned Value
+
+Call the `processArg` function with an argument of `7` and assign its return value to the variable `processed`.
+
+```js
+let processed = 0;
+
+function processArg(num) {
+	return (num + 3) / 5;
+}
+
+processed = processArg(7);
+```
+
+[Back to Top](#table-of-contents)
+
+### 57. Stand in Line
+
+Write a function `nextInLine` which takes an array (`arr`) and a number (`item`) as arguments.
+
+Add the number to the end of the array, then remove the first element of the array.
+
+The `nextInLine` function should then return the element that was removed.
+
+```js
+function nextInLine(arr, item) {
+	arr.push(item);
+	return arr.shift();
+}
+
+let testArr = [1, 2, 3, 4, 5];
+
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
+```
+
+[Back to Top](#table-of-contents)
+
+### 58. Understanding Boolean Values
+
+Modify the `welcomeToBooleans` function so that it returns `true` instead of `false` when the run button is clicked.
+
+```js
+function welcomeToBooleans() {
+	return true;
+}
+```
+
+[Back to Top](#table-of-contents)
+
+### 59. Use Conditional Logic with If Statements
+
+Create an `if` statement inside the function to return `Yes, that was true` if the parameter `wasThatTrue` is `true` and return `No, that was false` otherwise.
+
+```js
+function trueOrFalse(wasThatTrue) {
+	if (wasThatTrue === true) {
+		return "Yes, that was true";
+	}
+	return "No, that was false";
+}
+```
+
+[Back to Top](#table-of-contents)
+
+### 60. Comparison with the Equality Operator
+
+Add the equality operator to the indicated line so that the function will return the string `Equal` when `val` is equivalent to `12`.
+
+```js
+function testEqual(val) {
+	if (val == 12) {
+		return "Equal";
+	}
+	return "Not Equal";
+}
+
+testEqual(10);
+```
 
 [Back to Top](#table-of-contents)
 
