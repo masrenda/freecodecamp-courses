@@ -10,10 +10,10 @@ This will be a useful repository for beginners who struggle to complete challeng
 
 ## Roadmap
 
-- [ ] [Responsive Web Design](https://github.com/Kroixyz/freecodecamp-courses/blob/master/responsive-web-design/README.md)
+- [ ] [Responsive Web Design](https://github.com/masrenda/freecodecamp-courses/blob/master/responsive-web-design/README.md)
 
-- [ ] [Javascript Algorithms and Data Structures](https://github.com/Kroixyz/freecodecamp-courses/blob/master/js-algorithms-and-data-structures/README.md)
+- [ ] [Javascript Algorithms and Data Structures](https://github.com/masrenda/freecodecamp-courses/blob/master/js-algorithms-and-data-structures/README.md)
 
-- [ ] [Front End Development Libraries](https://github.com/Kroixyz/freecodecamp-courses/blob/master/fe-development-libraries/README.md)
+- [ ] [Front End Development Libraries](https://github.com/masrenda/freecodecamp-courses/blob/master/fe-development-libraries/README.md)
 
 - [ ] soon ....

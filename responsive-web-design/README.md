@@ -9,20 +9,20 @@ Finally, you'll learn how to make webpages that respond to different screen size
 
 ## Roadmap
 
-- ### [Stage 1](https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design/stage-1)
+- ### [Stage 1](https://github.com/masrenda/freecodecamp-courses/tree/master/responsive-web-design/stage-1)
 - [x] Learn HTML by Building a Cat Photo App
 - [x] Learn Basic CSS by Building a Cafe Menu
 - [x] Learn CSS Colors by Building a Set of Colored
 - [x] Learn HTML Forms by Building a Registration Form
 - [x] Survey Form
 
-- ### [Stage 2](https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design/stage-2)
+- ### [Stage 2](https://github.com/masrenda/freecodecamp-courses/tree/master/responsive-web-design/stage-2)
 - [x] Learn the CSS Box Model by building a Rothko Painting
 - [x] Learn CSS Flexbox by Building a Photo Gallery
 - [x] Learn Typography by Building a Nutrition Label
 - [x] Learn Accessibility by Building a Quiz
 - [x] Tribute Page
-- ### [Stage 3](https://github.com/Kroixyz/freecodecamp-courses/tree/master/responsive-web-design/stage-3)
+- ### [Stage 3](https://github.com/masrenda/freecodecamp-courses/tree/master/responsive-web-design/stage-3)
 - [x] Learn More About CSS Pseudo Selectors by Building a Balance Sheet
 - [x] Learn Intermediate CSS by Building a Picasso Painting
 - [x] Learn Responsive Web Design by Building a Piano
