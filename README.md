@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://i.postimg.cc/tChfXkp1/1-TKXSm-O-vghw2-G5a-DRcf2-Ww.png" />
-    <img src="https://img.shields.io/github/commit-activity/w/Kroixyz/freecodecamp-courses?style=for-the-badge" />
+    <img src="https://img.shields.io/github/commit-activity/w/Kroixyz/freecodecamp-courses" alt="Commit Activity" />
 </p>
 
 This will be a useful repository for beginners who struggle to complete challenges at freeCodeCamp.
