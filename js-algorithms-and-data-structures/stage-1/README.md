@@ -166,6 +166,8 @@ console.log(FCC, fact);
 
 ### 11. Add Two Number with Javascript
 
+Change the `0` so that sum will equal `20`.
+
 ```js
 const sum = 20 + 0;
 ```
@@ -173,6 +175,8 @@ const sum = 20 + 0;
 [Back to Top](#table-of-contents)
 
 ### 12. Subtract One Number from Another with Javascript
+
+Change the `0` so the difference is `12`.
 
 ```js
 const difference = 45 - 33;
@@ -182,6 +186,8 @@ const difference = 45 - 33;
 
 ### 13. Multiply Two Numbers with Javascript
 
+Change the `0` so that product will equal `80`.
+
 ```js
 const product = 8 * 10;
 ```
@@ -190,6 +196,8 @@ const product = 8 * 10;
 
 ### 14. Divide One Number by Another with Javascript
 
+Change the `0` so that the `quotient` is equal to `2`.
+
 ```js
 const quotient = 66 / 33;
 ```
@@ -197,6 +205,8 @@ const quotient = 66 / 33;
 [Back to Top](#table-of-contents)
 
 ### 15. Increment a Number with Javascript
+
+Change the code to use the `++` operator on `myVar`.
 
 ```js
 let myVar = 87;
@@ -208,6 +218,8 @@ myVar++;
 
 ### 16. Decrement a Number with Javascript
 
+Change the code to use the `--` operator on `myVar`.
+
 ```js
 let myVar = 11;
 
@@ -217,6 +229,8 @@ myVar--;
 [Back to Top](#table-of-contents)
 
 ### 17. Create Decimal Number with Javascript
+
+Create a variable `myDecimal` and give it a decimal value with a fractional part (e.g. `5.7`).
 
 ```js
 const ourDecimal = 5.7;
@@ -228,6 +242,8 @@ const myDecimal = 5.7;
 
 ### 18. Multiply Two Decimals with JavaScript
 
+Change the `0.0` so that product will equal `5.0`.
+
 ```js
 const product = 2.0 * 2.5;
 ```
@@ -236,6 +252,8 @@ const product = 2.0 * 2.5;
 
 ### 19. Divide One Decimal by Another with Javascript
 
+Change the `0.0` so that `quotient` will equal to `2.2`.
+
 ```js
 const quotient = 4.4 / 2.0;
 ```
@@ -243,6 +261,8 @@ const quotient = 4.4 / 2.0;
 [Back to Top](#table-of-contents)
 
 ### 20. Finding a Remainder in JavaScript
+
+Set `remainder` equal to the remainder of `11` divided by `3` using the remainder (`%`) operator.
 
 ```js
 const remainder = 2 % 6;
