@@ -49,6 +49,8 @@ Use the `var` keyword to create a variable called `myName`.
 var myName;
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 3. Storing Values with The Assignment Operator
 
 Assign the value `7` to variable `a`.
@@ -59,6 +61,8 @@ var a;
 var myVar = 7;
 a = myVar;
 ```
+
+[Back to Top](#table-of-contents)
 
 ### 4. Assigning The Value of One Variable to Another
 
@@ -72,6 +76,8 @@ var b;
 b = a;
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 5. Initializing Variables with The Assignment Operator
 
 Define `a` variable a with `var` and initialize it to a value of `9`.
@@ -79,6 +85,8 @@ Define `a` variable a with `var` and initialize it to a value of `9`.
 ```js
 var a = 9;
 ```
+
+[Back to Top](#table-of-contents)
 
 ### 6. Declare String Variables
 
@@ -90,6 +98,8 @@ var myLastName = "Doe";
 
 myFirstName + myLastName;
 ```
+
+[Back to Top](#table-of-contents)
 
 ### 7. Understanding Uninitialized Variables
 
@@ -109,6 +119,8 @@ b = b + 5;
 c = c + " String!";
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 8. Understanding Case Sensitivity in Variables
 
 Modify the existing declarations and assignments so their names use _camelCase_. Do not create any new variables.
@@ -123,6 +135,8 @@ properCamelCase = "A String";
 titleCaseOver = 9000;
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 9. Explore Differences between The var and let Keywords
 
 Update the code so it only uses the `let` keyword.
@@ -131,6 +145,8 @@ Update the code so it only uses the `let` keyword.
 let catName = "Oliver";
 let catSound = "Meow!";
 ```
+
+[Back to Top](#table-of-contents)
 
 ### 10. Declare a read-only Variable with The const Keyword
 
@@ -144,11 +160,15 @@ fact = "is awesome!";
 console.log(FCC, fact);
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 11. Add Two Number with Javascript
 
 ```js
 const sum = 20 + 0;
 ```
+
+[Back to Top](#table-of-contents)
 
 ### 12. Subtract One Number from Another with Javascript
 
@@ -156,17 +176,23 @@ const sum = 20 + 0;
 const difference = 45 - 33;
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 13. Multiply Two Numbers with Javascript
 
 ```js
 const product = 8 * 10;
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 14. Divide One Number by Another with Javascript
 
 ```js
 const quotient = 66 / 33;
 ```
+
+[Back to Top](#table-of-contents)
 
 ### 15. Increment a Number with Javascript
 
@@ -176,6 +202,8 @@ let myVar = 87;
 myVar++;
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 16. Decrement a Number with Javascript
 
 ```js
@@ -183,6 +211,8 @@ let myVar = 11;
 
 myVar--;
 ```
+
+[Back to Top](#table-of-contents)
 
 ### 17. Create Decimal Number with Javascript
 
@@ -192,11 +222,15 @@ const ourDecimal = 5.7;
 const myDecimal = 5.7;
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 18. Multiply Two Decimals with JavaScript
 
 ```js
 const product = 2.0 * 2.5;
 ```
+
+[Back to Top](#table-of-contents)
 
 ### 19. Divide One Decimal by Another with Javascript
 
@@ -204,11 +238,15 @@ const product = 2.0 * 2.5;
 const quotient = 4.4 / 2.0;
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 20. Finding a Remainder in JavaScript
 
 ```js
 const remainder = 2 % 6;
 ```
+
+[Back to Top](#table-of-contents)
 
 ### 21 - Compound Assignment with Augmented Addition
 
@@ -222,6 +260,8 @@ b += 9;
 c += 7;
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 22 - Compound Assignment with Augmented Subtraction
 
 ```js
@@ -233,6 +273,8 @@ a -= 6;
 b -= 15;
 c -= 1;
 ```
+
+[Back to Top](#table-of-contents)
 
 ### 23 - Compound Assignment with Augmented Multiplication
 
@@ -246,6 +288,8 @@ b *= 3;
 c *= 10;
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 24 - Compound Assignment with Augmented Division
 
 ```js
@@ -258,11 +302,15 @@ b /= 4;
 c /= 11;
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 25 - Escaping Literal Quotes in Strings
 
 ```js
 const myStr = 'I am a "double quoted" string inside "double quotes".';
 ```
+
+[Back to Top](#table-of-contents)
 
 ### 26 - Quoting Strings with Single Quotes
 
@@ -270,17 +318,23 @@ const myStr = 'I am a "double quoted" string inside "double quotes".';
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 27 - Escape Sequences in Strings
 
 ```js
 const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 28 - Concatenating Strings with Plus Operator
 
 ```js
 const myStr = "This is the start. " + "This is the end.";
 ```
+
+[Back to Top](#table-of-contents)
 
 ### 29 - Concatenating Strings with Plus Equal Operator
 
@@ -289,12 +343,16 @@ let myStr = "This is the first sentence. ";
 myStr += "This is the second sentence.";
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 30 - Constructing Strings with Variables
 
 ```js
 const myName = "Jhon";
 const myStr = "My name is " + myName + "and I am well!";
 ```
+
+[Back to Top](#table-of-contents)
 
 ### 31 - Appending Variables to Strings
 
