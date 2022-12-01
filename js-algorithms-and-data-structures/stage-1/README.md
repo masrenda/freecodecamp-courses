@@ -27,6 +27,16 @@ In this course, you'll learn fundamental programming concepts in JavaScript. You
 18. [Multiply Two Decimals with JavaScript](#18-multiply-two-decimals-with-javascript)
 19. [Divide One Decimal by Another with Javascript](#19-divide-one-decimal-by-another-with-javascript)
 20. [Finding a Remainder in JavaScript](#20-finding-a-remainder-in-javascript)
+21. [Compound Assignment with Augmented Addition](#21-compound-assignment-with-augmented-addition)
+22. [Compound Assignment with Augmented Subtraction](#22-compound-assignment-with-augmented-subtraction)
+23. [Compound Assignment with Augmented Multiplication](#23-compound-assignment-with-augmented-multiplication)
+24. [Compound Assignment with Augmented Division](#24-compound-assignment-with-augmented-division)
+25. [Escaping Literal Quotes in Strings](#25-escaping-literal-quotes-in-strings)
+26. [Quoting Strings with Single Quotes](#26-quoting-strings-with-single-quotes)
+27. [Escape Sequences in Strings](#27-escape-sequences-in-strings)
+28. [Concatenating Strings with Plus Operator](#28-concatenating-strings-with-plus-operator)
+29. [Concatenating Strings with Plus Equal Operator](#29-concatenating-strings-with-plus-equal-operator)
+30. [Constructing Strings with Variables](#30-constructing-strings-with-variables)
 
 ## Roadmap
 
@@ -270,7 +280,7 @@ const remainder = 2 % 6;
 
 [Back to Top](#table-of-contents)
 
-### 21 - Compound Assignment with Augmented Addition
+### 21. Compound Assignment with Augmented Addition
 
 Convert the assignments for `a`, `b`, and `c` to use the `+=` operator.
 
@@ -286,7 +296,7 @@ c += 7;
 
 [Back to Top](#table-of-contents)
 
-### 22 - Compound Assignment with Augmented Subtraction
+### 22. Compound Assignment with Augmented Subtraction
 
 Convert the assignments for `a`, `b`, and `c` to use the `-=` operator.
 
@@ -302,7 +312,7 @@ c -= 1;
 
 [Back to Top](#table-of-contents)
 
-### 23 - Compound Assignment with Augmented Multiplication
+### 23. Compound Assignment with Augmented Multiplication
 
 Convert the assignments for `a`, `b`, and `c` to use the `*=` operator.
 
@@ -318,7 +328,7 @@ c *= 10;
 
 [Back to Top](#table-of-contents)
 
-### 24 - Compound Assignment with Augmented Division
+### 24. Compound Assignment with Augmented Division
 
 Convert the assignments for `a`, `b`, and `c` to use the `/=` operator.
 
@@ -334,7 +344,7 @@ c /= 11;
 
 [Back to Top](#table-of-contents)
 
-### 25 - Escaping Literal Quotes in Strings
+### 25. Escaping Literal Quotes in Strings
 
 Use backslashes to assign a string to the `myStr` variable so that if you were to print it to the console, you would see:
 
@@ -346,7 +356,7 @@ const myStr = 'I am a "double quoted" string inside "double quotes".';
 
 [Back to Top](#table-of-contents)
 
-### 26 - Quoting Strings with Single Quotes
+### 26. Quoting Strings with Single Quotes
 
 Change the provided string to a string with single quotes at the beginning and end and no escape characters.
 
@@ -358,7 +368,7 @@ const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 
 [Back to Top](#table-of-contents)
 
-### 27 - Escape Sequences in Strings
+### 27. Escape Sequences in Strings
 
 Assign the following three lines of text into the single variable `myStr` using escape sequences.
 
@@ -376,7 +386,7 @@ const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 
 [Back to Top](#table-of-contents)
 
-### 28 - Concatenating Strings with Plus Operator
+### 28. Concatenating Strings with Plus Operator
 
 Build `myStr` from the strings `This is the start`. and `This is the end`. using the `+` operator. Be sure to include a space between the two strings.
 
@@ -386,7 +396,7 @@ const myStr = "This is the start. " + "This is the end.";
 
 [Back to Top](#table-of-contents)
 
-### 29 - Concatenating Strings with Plus Equal Operator
+### 29. Concatenating Strings with Plus Equal Operator
 
 Build `myStr` over several lines by concatenating these two strings: `This is the first sentence`. and `This is the second sentence`. using the `+=` operator. Use the `+=` operator similar to how it is shown in the example and be sure to include a space between the two strings. Start by assigning the first string to `myStr`, then add on the second string.
 
@@ -397,7 +407,7 @@ myStr += "This is the second sentence.";
 
 [Back to Top](#table-of-contents)
 
-### 30 - Constructing Strings with Variables
+### 30. Constructing Strings with Variables
 
 Set `myName` to a string equal to your name and build `myStr` with `myName` between the strings `My name is` and `and I am well!`
 
