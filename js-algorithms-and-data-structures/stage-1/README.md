@@ -758,7 +758,7 @@ function fun2() {
 
 [Back to Top](#table-of-contents)
 
-### 53.
+### 53. Local Scope and Functions
 
 The editor has two `console.log`s to help you see what is happening. Check the console as you code to see how it changes. Declare a local variable `myVar` inside `myLocalScope` and run the tests.
 
