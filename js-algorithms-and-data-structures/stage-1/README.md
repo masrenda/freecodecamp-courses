@@ -363,7 +363,7 @@ const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 Assign the following three lines of text into the single variable `myStr` using escape sequences.
 
 > FirstLine <br>
->       \SecondLine<br>
+>       \SecondLine <br>
 > ThirdLine
 
 You will need to use escape sequences to insert special characters correctly. You will also need to follow the spacing as it looks above, with no spaces between escape sequences or words.
