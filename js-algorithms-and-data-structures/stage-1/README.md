@@ -5,6 +5,19 @@ JavaScript is a scripting language you can use to make web pages interactive. It
 
 In this course, you'll learn fundamental programming concepts in JavaScript. You'll start with basic data structures like numbers and strings. Then you'll learn to work with arrays, objects, functions, loops, if/else statements, and more.
 
+## Table of Contents
+
+1. [Comment Your Javascript Code](#1-comment-your-javascript-code)
+2. [Declare Javascript Variales](#2-declare-javascript-variables)
+3. [Storing Values with The Assignment Operator](#3-storing-values-with-the-assignment-operator)
+4. [Assigning The Value of One Variable to Another](#4-assigning-the-value-of-one-variable-to-another)
+5. [Initializing Variables with The Assignment Operator](#5-initializing-variables-with-the-assignment-operator)
+6. [Declare String Variables](#6-declare-string-variables)
+7. [Understanding Uninitialized Variables](#7-understanding-uninitialized-variables)
+8. [Understanding Case Sensitivity in Variables](#8-understanding-case-sensitivity-in-variables)
+9. [Explore Differences between The var and let Keywords](#9-explore-differences-between-the-var-and-let-keywords)
+10. [Declare a read-only Variable with The const Keyword](#10-declare-a-read-only-variable-with-the-const-keyword)
+
 ## Roadmap
 
 ### 1. Comment Your Javascript Code
@@ -100,7 +113,7 @@ properCamelCase = "A String";
 titleCaseOver = 9000;
 ```
 
-### 09 - Explore Differences between The var and let Keywords
+### 9. Explore Differences between The var and let Keywords
 
 Update the code so it only uses the `let` keyword.
 
@@ -109,7 +122,7 @@ let catName = "Oliver";
 let catSound = "Meow!";
 ```
 
-### 10 - Declare a read-only Variable with The const Keyword
+### 10. Declare a read-only Variable with The const Keyword
 
 Change the code so that all variables are declared using `let` or `const`. Use `let` when you want the variable to change, and `const` when you want the variable to remain constant. Also, rename variables declared with `const` to conform to common practices. Do not change the strings assigned to the variables.
 
