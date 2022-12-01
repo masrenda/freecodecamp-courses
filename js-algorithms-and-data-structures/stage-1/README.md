@@ -17,6 +17,16 @@ In this course, you'll learn fundamental programming concepts in JavaScript. You
 8. [Understanding Case Sensitivity in Variables](#8-understanding-case-sensitivity-in-variables)
 9. [Explore Differences between The var and let Keywords](#9-explore-differences-between-the-var-and-let-keywords)
 10. [Declare a read-only Variable with The const Keyword](#10-declare-a-read-only-variable-with-the-const-keyword)
+11. [Add Two Number with Javascript](#11-add-two-number-with-javascript)
+12. [Subtract One Number from Another with Javascript](#12-subtract-one-number-from-another-with-javascript)
+13. [Multiply Two Numbers with Javascript](#13-multiply-two-numbers-with-javascript)
+14. [Divide One Number by Another with Javascript](#14-divide-one-number-by-another-with-javascript)
+15. [Increment a Number with Javascript](#15-increment-a-number-with-javascript)
+16. [Decrement a Number with Javascript](#16-decrement-a-number-with-javascript)
+17. [Create Decimal Number with Javascript](#17-create-decimal-number-with-javascript)
+18. [Multiply Two Decimals with JavaScript](#18-multiply-two-decimals-with-javascript)
+19. [Divide One Decimal by Another with Javascript](#19-divide-one-decimal-by-another-with-javascript)
+20. [Finding a Remainder in JavaScript](#20-finding-a-remainder-in-javascript)
 
 ## Roadmap
 
@@ -134,31 +144,31 @@ fact = "is awesome!";
 console.log(FCC, fact);
 ```
 
-### 11 - Add Two Number with Javascript
+### 11. Add Two Number with Javascript
 
 ```js
 const sum = 20 + 0;
 ```
 
-### 12 - Subtract One Number from Another with Javascript
+### 12. Subtract One Number from Another with Javascript
 
 ```js
 const difference = 45 - 33;
 ```
 
-### 13 - Multiply Two Numbers with Javascript
+### 13. Multiply Two Numbers with Javascript
 
 ```js
 const product = 8 * 10;
 ```
 
-### 14 - Divide One Number by Another with Javascript
+### 14. Divide One Number by Another with Javascript
 
 ```js
 const quotient = 66 / 33;
 ```
 
-### 15 - Increment a Number with Javascript
+### 15. Increment a Number with Javascript
 
 ```js
 let myVar = 87;
@@ -166,7 +176,7 @@ let myVar = 87;
 myVar++;
 ```
 
-### 16 - Decrement a Number with Javascript
+### 16. Decrement a Number with Javascript
 
 ```js
 let myVar = 11;
@@ -174,7 +184,7 @@ let myVar = 11;
 myVar--;
 ```
 
-### 17 - Create Decimal Number with Javascript
+### 17. Create Decimal Number with Javascript
 
 ```js
 const ourDecimal = 5.7;
@@ -182,19 +192,19 @@ const ourDecimal = 5.7;
 const myDecimal = 5.7;
 ```
 
-### 18 - Multiply Two Decimals with JavaScript
+### 18. Multiply Two Decimals with JavaScript
 
 ```js
 const product = 2.0 * 2.5;
 ```
 
-### 19 - Divide One Decimal by Another with Javascript
+### 19. Divide One Decimal by Another with Javascript
 
 ```js
 const quotient = 4.4 / 2.0;
 ```
 
-### 20 - Finding a Remainder in JavaScript
+### 20. Finding a Remainder in JavaScript
 
 ```js
 const remainder = 2 % 6;
