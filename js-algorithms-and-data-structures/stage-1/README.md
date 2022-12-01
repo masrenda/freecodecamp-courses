@@ -418,7 +418,9 @@ const myStr = "My name is " + myName + "and I am well!";
 
 [Back to Top](#table-of-contents)
 
-### 31 - Appending Variables to Strings
+### 31. Appending Variables to Strings
+
+Set `someAdjective` to a string of at least 3 characters and append it to `myStr` using the `+=` operator.
 
 ```js
 const someAdjective = "Hello Jhon Doe";
@@ -427,7 +429,9 @@ let myStr = "Learning to code is ";
 myStr += someAdjective;
 ```
 
-### 32 - Find the Length of a String
+### 32. Find the Length of a String
+
+Use the `.length` property to set `lastNameLength` to the number of characters in `lastName`.
 
 ```js
 let lastNameLength = 0;
@@ -436,7 +440,9 @@ const lastName = "Lovelace";
 lastNameLength = lastName.length;
 ```
 
-### 33 - Use Bracket Notation to Find the First Character in a String
+### 33. Use Bracket Notation to Find the First Character in a String
+
+Use bracket notation to find the first character in the `lastName` variable and assign it to `firstLetterOfLastName`.
 
 ```js
 let firstLetterOfLastName = "";
@@ -445,7 +451,9 @@ const lastName = "Lovelace";
 firstLetterOfLastName = lastName[0];
 ```
 
-### 34 - Understand String Immutability
+### 34. Understand String Immutability
+
+Correct the assignment to `myStr` so it contains the string value of `Hello World` using the approach shown in the example above.
 
 ```js
 let myStr = "Jello World";
@@ -453,7 +461,9 @@ let myStr = "Jello World";
 myStr = "Hello World";
 ```
 
-### 34 - Use Bracket Notation to Find the Nth Character in a String
+### 35. Use Bracket Notation to Find the Nth Character in a String
+
+Let's try to set `thirdLetterOfLastName` to equal the third letter of the `lastName` variable using bracket notation.
 
 ```js
 const lastName = "Lovelace";
@@ -461,7 +471,9 @@ const lastName = "Lovelace";
 const thirdLetterOfLastName = lastName[2];
 ```
 
-### 35 - Use Bracket Notation to Find the Last Character in a String
+### 36. Use Bracket Notation to Find the Last Character in a String
+
+Use _bracket notation_ to find the last character in the `lastName` variable.
 
 ```js
 const lastName = "Lovelace";
@@ -469,7 +481,9 @@ const lastName = "Lovelace";
 const lastLetterOfLastName = lastName[lastName.length - 1];
 ```
 
-### 36 - Use Bracket Notation to Find the Nth-to-Last Character in a String
+### 37. Use Bracket Notation to Find the Nth-to-Last Character in a String
+
+Use _bracket notation_ to find the second-to-last character in the `lastName` string.
 
 ```js
 const lastName = "Lovelace";
@@ -477,7 +491,13 @@ const lastName = "Lovelace";
 const secondToLastLetterOfLastName = lastName[lastName.length - 2];
 ```
 
-### 37 - Word Blanks
+### 38. Word Blanks
+
+In this challenge, we provide you with a noun, a verb, an adjective and an adverb. You need to form a complete sentence using words of your choice, along with the words we provide.
+
+You will need to use the string concatenation operator `+` to build a new string, using the provided variables: `myNoun`, `myAdjective`, `myVerb`, and `myAdverb`. You will then assign the formed string to the `wordBlanks` variable. You should not change the words assigned to the variables.
+
+You will also need to account for spaces in your string, so that the final sentence has spaces between all the words. The result should be a complete sentence.
 
 ```js
 const myNoun = "dog";
@@ -488,19 +508,25 @@ const myAdverb = "quickly";
 const wordBlanks = myNoun + " " + myAdjective + " " + myVerb + " " + myAdverb;
 ```
 
-### 38 - Store Multiple Values in one Variable using JavaScript Arrays
+### 39. Store Multiple Values in one Variable using JavaScript Arrays
+
+Modify the new array `myArray` so that it contains both a string and a number (in that order).
 
 ```js
 const myArray = ["jhon", 2];
 ```
 
-### 39 - Nest one Array within Another Array
+### 40. Nest one Array within Another Array
+
+Create a nested array called `myArray`.
 
 ```js
 const myArray = [["Jhon"], ["Doe"]];
 ```
 
-### 40 - Access Array Data with Indexes
+### 41. Access Array Data with Indexes
+
+Create a variable called `myData` and set it to equal the first value of `myArray` using bracket notation.
 
 ```js
 const myArray = [50, 60, 70];
@@ -508,7 +534,9 @@ const myArray = [50, 60, 70];
 const myData = myArray[0];
 ```
 
-### 41 - Modify Array Data With Indexes
+### 42. Modify Array Data With Indexes
+
+Modify the data stored at index `0` of `myArray` to a value of `45`.
 
 ```js
 const myArray = [18, 64, 99];
@@ -516,7 +544,9 @@ const myArray = [18, 64, 99];
 myArray[0] = 45;
 ```
 
-### 42 - Access Multi-Dimensional Arrays With Indexes
+### 43. Access Multi-Dimensional Arrays With Indexes
+
+Using bracket notation select an element from `myArray` such that `myData` is equal to `8`.
 
 ```js
 const myArray = [
@@ -529,7 +559,9 @@ const myArray = [
 const myData = myArray[2][1];
 ```
 
-### 43 - Manipulate Arrays With push()
+### 44. Manipulate Arrays With push()
+
+Push `["dog", 3]` onto the end of the `myArray` variable.
 
 ```js
 const myArray = [
@@ -540,7 +572,9 @@ const myArray = [
 myArray.push(["dog", 3]);
 ```
 
-### 44 - Manipulate Arrays With pop()
+### 45. Manipulate Arrays With pop()
+
+Use the `.pop()` function to remove the last item from `myArray` and assign the popped off value to a new variable, `removedFromMyArray`.
 
 ```js
 const myArray = [
@@ -551,7 +585,9 @@ const myArray = [
 const removedFromMyArray = myArray.pop();
 ```
 
-### 45 - Manipulate Arrays With shift()
+### 46. Manipulate Arrays With shift()
+
+Use the `.shift()` function to remove the first item from `myArray` and assign the "shifted off" value to a new variable, `removedFromMyArray`.
 
 ```js
 const myArray = [
