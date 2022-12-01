@@ -53,6 +53,20 @@ In this course, you'll learn fundamental programming concepts in JavaScript. You
 44. [Manipulate Arrays With push()](#44-manipulate-arrays-with-push)
 45. [Manipulate Arrays With pop()](#45-manipulate-arrays-with-pop)
 46. [Manipulate Arrays With shift()](#46-manipulate-arrays-with-shift)
+47. [anipulate Arrays With unshift()](#47-manipulate-arrays-with-unshift)
+48. [Shopping List](#48-shopping-list)
+49. [Write Reusable JavaScript with Functions](#49-write-reusable-javascript-with-functions)
+50. [Passing Values to Functions with Arguments](#50-passing-values-to-functions-with-arguments)
+51. [Return a Value from a Function with Return](#51-return-a-value-from-a-function-with-return)
+52. [Global Scope and Functions](#52-global-scope-and-functions)
+53. [Local Scope and Functions](#53-local-scope-and-functions)
+54. [Global vs. Local Scope in Functions](#54-global-vs-local-scope-in-functions)
+55. [Understanding Undefined Value returned from a Function](#55-understanding-undefined-value-returned-from-a-function)
+56. [Assignment with a Returned Value](#56-assignment-with-a-returned-value)
+57. [Stand in Line](#56-assignment-with-a-returned-value)
+58. [Understanding Boolean Values](#58-understanding-boolean-values)
+59. [Use Conditional Logic with If Statements](#59-use-conditional-logic-with-if-statements)
+60. [Comparison with the Equality Operator](#60-comparison-with-the-equality-operator)
 
 ## Roadmap
 
