@@ -272,6 +272,8 @@ const remainder = 2 % 6;
 
 ### 21 - Compound Assignment with Augmented Addition
 
+Convert the assignments for `a`, `b`, and `c` to use the `+=` operator.
+
 ```js
 let a = 3;
 let b = 17;
@@ -285,6 +287,8 @@ c += 7;
 [Back to Top](#table-of-contents)
 
 ### 22 - Compound Assignment with Augmented Subtraction
+
+Convert the assignments for `a`, `b`, and `c` to use the `-=` operator.
 
 ```js
 let a = 11;
@@ -300,6 +304,8 @@ c -= 1;
 
 ### 23 - Compound Assignment with Augmented Multiplication
 
+Convert the assignments for `a`, `b`, and `c` to use the `*=` operator.
+
 ```js
 let a = 5;
 let b = 12;
@@ -313,6 +319,8 @@ c *= 10;
 [Back to Top](#table-of-contents)
 
 ### 24 - Compound Assignment with Augmented Division
+
+Convert the assignments for `a`, `b`, and `c` to use the `/=` operator.
 
 ```js
 let a = 48;
@@ -328,6 +336,10 @@ c /= 11;
 
 ### 25 - Escaping Literal Quotes in Strings
 
+Use backslashes to assign a string to the `myStr` variable so that if you were to print it to the console, you would see:
+
+> I am a "double quoted" string inside "double quotes".
+
 ```js
 const myStr = 'I am a "double quoted" string inside "double quotes".';
 ```
@@ -335,6 +347,10 @@ const myStr = 'I am a "double quoted" string inside "double quotes".';
 [Back to Top](#table-of-contents)
 
 ### 26 - Quoting Strings with Single Quotes
+
+Change the provided string to a string with single quotes at the beginning and end and no escape characters.
+
+Right now, the `<a>` tag in the string uses double quotes everywhere. You will need to change the outer quotes to single quotes so you can remove the escape characters.
 
 ```js
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
@@ -344,6 +360,16 @@ const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 
 ### 27 - Escape Sequences in Strings
 
+Assign the following three lines of text into the single variable `myStr` using escape sequences.
+
+> FirstLine
+> \SecondLine
+> ThirdLine
+
+You will need to use escape sequences to insert special characters correctly. You will also need to follow the spacing as it looks above, with no spaces between escape sequences or words.
+
+Note: The indentation for `SecondLine` is achieved with the tab escape character, not spaces.
+
 ```js
 const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 ```
@@ -351,6 +377,8 @@ const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 [Back to Top](#table-of-contents)
 
 ### 28 - Concatenating Strings with Plus Operator
+
+Build `myStr` from the strings `This is the start`. and `This is the end`. using the `+` operator. Be sure to include a space between the two strings.
 
 ```js
 const myStr = "This is the start. " + "This is the end.";
@@ -360,6 +388,8 @@ const myStr = "This is the start. " + "This is the end.";
 
 ### 29 - Concatenating Strings with Plus Equal Operator
 
+Build `myStr` over several lines by concatenating these two strings: `This is the first sentence`. and `This is the second sentence`. using the `+=` operator. Use the `+=` operator similar to how it is shown in the example and be sure to include a space between the two strings. Start by assigning the first string to `myStr`, then add on the second string.
+
 ```js
 let myStr = "This is the first sentence. ";
 myStr += "This is the second sentence.";
@@ -368,6 +398,8 @@ myStr += "This is the second sentence.";
 [Back to Top](#table-of-contents)
 
 ### 30 - Constructing Strings with Variables
+
+Set `myName` to a string equal to your name and build `myStr` with `myName` between the strings `My name is` and `and I am well!`
 
 ```js
 const myName = "Jhon";
