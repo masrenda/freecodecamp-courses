@@ -41,6 +41,8 @@ Try creating one of each type of comment.
 multi-line comment */
 ```
 
+[Back to Top](#table-of-contents)
+
 ### 2. Declare Javascript Variables
 
 Use the `var` keyword to create a variable called `myName`.
