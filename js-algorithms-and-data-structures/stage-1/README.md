@@ -645,3 +645,153 @@ const removedFromMyArray = myArray.shift();
 ```
 
 [Back to Top](#table-of-contents)
+
+### 47. Manipulate Arrays With unshift()
+
+Add `["Paul", 35]` to the beginning of the `myArray` variable using `unshift()`.
+
+```js
+const myArray = [
+	["John", 23],
+	["dog", 3],
+];
+myArray.shift();
+
+myArray.unshift(["Paul", 35]);
+```
+
+[Back to Top](#table-of-contents)
+
+### 48. Shopping List
+
+Create a shopping list in the variable `myList`. The list should be a multi-dimensional array containing several sub-arrays.
+
+The first element in each sub-array should contain a string with the name of the item. The second element should be a number representing the quantity i.e.
+
+> ```js
+> ["Chocolate Bar", 15];
+> ```
+
+There should be at least 5 sub-arrays in the list.
+
+```js
+var myList = [
+	["Canned Beans", 3],
+	["Milk Galon", 1],
+	["Cereal", 2],
+	["Toilet Paper", 12],
+	["Sack of Rice", 1],
+];
+```
+
+[Back to Top](#table-of-contents)
+
+### 49. Write Reusable JavaScript with Functions
+
+1. Create a function called `reusableFunction` which prints the string `Hi World` to the dev console.
+2. Call the function.
+
+```js
+function reusableFunction() {
+	console.log("Hi World");
+}
+
+reusableFunction();
+```
+
+[Back to Top](#table-of-contents)
+
+### 50. Passing Values to Functions with Arguments
+
+1. Create a function called `functionWithArgs` that accepts two arguments and outputs their sum to the dev console.
+2. Call the function with two numbers as arguments.
+
+```js
+function functionWithArgs(param1, param2) {
+	console.log(param1 + param2);
+}
+
+functionWithArgs(7, 3);
+```
+
+[Back to Top](#table-of-contents)
+
+### 51.
+
+[Back to Top](#table-of-contents)
+
+### 52.
+
+[Back to Top](#table-of-contents)
+
+### 53.
+
+[Back to Top](#table-of-contents)
+
+### 54.
+
+[Back to Top](#table-of-contents)
+
+### 55.
+
+[Back to Top](#table-of-contents)
+
+### 56.
+
+[Back to Top](#table-of-contents)
+
+### 57.
+
+[Back to Top](#table-of-contents)
+
+### 58.
+
+[Back to Top](#table-of-contents)
+
+### 59.
+
+[Back to Top](#table-of-contents)
+
+### 60.
+
+[Back to Top](#table-of-contents)
+
+### 61.
+
+[Back to Top](#table-of-contents)
+
+### 62.
+
+[Back to Top](#table-of-contents)
+
+### 63.
+
+[Back to Top](#table-of-contents)
+
+### 64.
+
+[Back to Top](#table-of-contents)
+
+### 65.
+
+[Back to Top](#table-of-contents)
+
+### 66.
+
+[Back to Top](#table-of-contents)
+
+### 67.
+
+[Back to Top](#table-of-contents)
+
+### 68.
+
+[Back to Top](#table-of-contents)
+
+### 69.
+
+[Back to Top](#table-of-contents)
+
+### 70.
+
+[Back to Top](#table-of-contents)
