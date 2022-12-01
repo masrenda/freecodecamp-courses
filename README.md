@@ -4,7 +4,7 @@
 
 This will be a useful repository for beginners who struggle to complete challenges at freeCodeCamp.
 
-> **_NOTE:_**_This repository is still in progress._
+> **_NOTE:_** _This repository is still in progress._
 
 <img src="https://img.shields.io/github/commit-activity/w/Kroixyz/freecodecamp-courses" alt="Commit Activity" />
 
