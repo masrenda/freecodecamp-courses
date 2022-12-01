@@ -7,8 +7,8 @@ In this course, you'll learn fundamental programming concepts in JavaScript. You
 
 ## Roadmap
 
-<details>
-<summary><h3>1. Comment Your Javascript Code</h3></summary>
+### 1. Comment Your Javascript Code
+
 Try creating one of each type of comment.
 
 ```js
@@ -18,21 +18,13 @@ Try creating one of each type of comment.
 multi-line comment */
 ```
 
-</details>
-<details>
-<summary>
-
 ### 2. Declare Javascript Variables
-
-</summary>
 
 Use the `var` keyword to create a variable called `myName`.
 
 ```js
 var myName;
 ```
-
-</details>
 
 ### 3. Storing Values with The Assignment Operator
 
