@@ -26,7 +26,7 @@ Finally, you'll learn how to make webpages that respond to different screen size
 - [x] Learn More About CSS Pseudo Selectors by Building a Balance Sheet
 - [x] Learn Intermediate CSS by Building a Picasso Painting
 - [x] Learn Responsive Web Design by Building a Piano
-- [ ] Technical Documentation Page
+- [x] Technical Documentation Page
 - ### [Stage 4]()
 - [x] Learn CSS Variables by Building a City Skyline
 - [x] Learn CSS Grid by Building a Magazine
