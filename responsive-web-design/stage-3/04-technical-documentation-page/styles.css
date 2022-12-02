@@ -1,0 +1,10 @@
+a {
+	color: chocolate;
+}
+
+@media (hover: hover) {
+	a:hover {
+		color: limegreen;
+		transition-duration: 1s;
+	}
+}
