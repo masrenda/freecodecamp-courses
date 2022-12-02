@@ -1265,7 +1265,7 @@ golfScore(5, 4);
 
 ### 76. Selecting from Many Options with Switch Statements
 
-Write a switch statement which tests `val` and sets `answer` for the following conditions:
+Write a switch statement which tests `val` and sets `answer` for the following conditions: <br>
 `1` - `alpha` <br>
 `2` - `beta` <br>
 `3` - `gamma` <br>
