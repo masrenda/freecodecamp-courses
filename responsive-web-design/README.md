@@ -32,6 +32,6 @@ Finally, you'll learn how to make webpages that respond to different screen size
 - [x] Learn CSS Grid by Building a Magazine
 - [ ] Product Landing Page
 - ### [Stage 5]()
-- [x] Learn CSS Animation by Building a Ferris Wheel
-- [x] Learn CSS Transforms by Building a Penguin
-- [x] Personal Portfolio Webpage
+- [ ] Learn CSS Animation by Building a Ferris Wheel
+- [ ] Learn CSS Transforms by Building a Penguin
+- [ ] Personal Portfolio Webpage
