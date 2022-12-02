@@ -77,6 +77,11 @@ In this course, you'll learn fundamental programming concepts in JavaScript. You
 68. [Comparison with the Less Than Or Equal To Operator](#68-comparison-with-the-less-than-or-equal-to-operator)
 69. [Comparisons with the Logical And Operator](#69-comparisons-with-the-logical-and-operator)
 70. [Comparisons with the Logical Or Operator](#70-comparisons-with-the-logical-or-operator)
+71. [Introducing Else Statements](#71-introducing-else-statements)
+72. [Introducing Else If Statements](#72-introducing-else-if-statements)
+73. [Logical Order in If Else Statements](#73-logical-order-in-if-else-statements)
+74. [Chaining If Else Statements](#74-chaining-if-else-statements)
+75. [Golf Code](#75-golf-code)
 
 ## Roadmap
 
@@ -1174,7 +1179,7 @@ orderMyLogic(7);
 
 [Back to Top](#table-of-contents)
 
-### 74.
+### 74. Chaining If Else Statements
 
 Write chained `if/else if` statements to fulfill the following conditions:
 
