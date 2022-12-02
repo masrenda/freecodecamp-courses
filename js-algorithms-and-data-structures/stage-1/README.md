@@ -1112,3 +1112,164 @@ testLogicalOr(15);
 ```
 
 [Back to Top](#table-of-contents)
+
+### 71. Introducing Else Statements
+
+Combine the `if` statements into a single `if/else` statement.
+
+```js
+function testElse(val) {
+	let result = "";
+
+	if (val > 5) {
+		result = "Bigger than 5";
+	} else {
+		result = "5 or Smaller";
+	}
+
+	return result;
+}
+
+testElse(4);
+```
+
+[Back to Top](#table-of-contents)
+
+### 72. Introducing Else If Statements
+
+Convert the logic to use `else if` statements.
+
+```js
+function testElseIf(val) {
+	if (val > 10) {
+		return "Greater than 10";
+	} else if (val < 5) {
+		return "Smaller than 5";
+	} else {
+		return "Between 5 and 10";
+	}
+}
+testElseIf(7);
+```
+
+[Back to Top](#table-of-contents)
+
+### 73. Logical Order in If Else Statements
+
+Change the order of logic in the function so that it will return the correct statements in all cases.
+
+```js
+function orderMyLogic(val) {
+	if (val < 5) {
+		return "Less than 5";
+	} else if (val < 10) {
+		return "Less than 10";
+	} else {
+		return "Greater than or equal to 10";
+	}
+}
+
+orderMyLogic(7);
+```
+
+[Back to Top](#table-of-contents)
+
+### 74.
+
+Write chained `if/else if` statements to fulfill the following conditions:
+
+`num < 5` - return `Tiny` <br>
+`num < 10` - return `Small` <br>
+`num < 15` - return `Medium` <br>
+`num < 20` - return `Large` <br>
+`num >= 20` - return `Huge`
+
+```js
+function testSize(num) {
+	if (num < 5) {
+		return "Tiny";
+	} else if (num < 10) {
+		return "Small";
+	} else if (num < 15) {
+		return "Medium";
+	} else if (num < 20) {
+		return "Large";
+	} else if (num >= 20) {
+		return "Huge";
+	} else {
+		return "Change Me";
+	}
+}
+
+testSize(7);
+```
+
+[Back to Top](#table-of-contents)
+
+### 75. Golf Code
+
+In the game of Golf, each hole has a `par`, meaning, the average number of `strokes` a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below `par` your `strokes` are, there is a different nickname.
+
+Your function will be passed `par` and `strokes` arguments. Return the correct string according to this table which lists the strokes in order of priority; top (highest) to bottom (lowest):
+
+[Back to Top](#table-of-contents)
+
+### 76.
+
+[Back to Top](#table-of-contents)
+
+### 77.
+
+[Back to Top](#table-of-contents)
+
+### 78.
+
+[Back to Top](#table-of-contents)
+
+### 79.
+
+[Back to Top](#table-of-contents)
+
+### 80.
+
+[Back to Top](#table-of-contents)
+
+### 81.
+
+[Back to Top](#table-of-contents)
+
+### 82.
+
+[Back to Top](#table-of-contents)
+
+### 83.
+
+[Back to Top](#table-of-contents)
+
+### 84.
+
+[Back to Top](#table-of-contents)
+
+### 85.
+
+[Back to Top](#table-of-contents)
+
+### 86.
+
+[Back to Top](#table-of-contents)
+
+### 87.
+
+[Back to Top](#table-of-contents)
+
+### 88.
+
+[Back to Top](#table-of-contents)
+
+### 89.
+
+[Back to Top](#table-of-contents)
+
+### 90.
+
+[Back to Top](#table-of-contents)
