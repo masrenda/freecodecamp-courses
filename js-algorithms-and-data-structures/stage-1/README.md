@@ -1263,7 +1263,37 @@ golfScore(5, 4);
 
 [Back to Top](#table-of-contents)
 
-### 76.
+### 76. Selecting from Many Options with Switch Statements
+
+Write a switch statement which tests `val` and sets `answer` for the following conditions:
+`1` - `alpha` <br>
+`2` - `beta` <br>
+`3` - `gamma` <br>
+`4` - `delta` <br>
+
+```js
+function caseInSwitch(val) {
+	let answer = "";
+	switch (val) {
+		case 1:
+			return "alpha";
+			break;
+		case 2:
+			return "beta";
+			break;
+		case 3:
+			return "gamma";
+			break;
+		case 4:
+			return "delta";
+			break;
+	}
+
+	return answer;
+}
+
+caseInSwitch(1);
+```
 
 [Back to Top](#table-of-contents)
 
