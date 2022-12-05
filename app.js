@@ -1,2 +1,8 @@
 //this is comment
-console.log("hello")
+let s = console.log("hello")
+
+if (a !== undefined) {
+  return "false"
+} else {
+ console.log(s) 
+}
