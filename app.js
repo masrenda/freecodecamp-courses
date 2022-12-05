@@ -6,3 +6,10 @@ if (a !== undefined) {
 } else {
  console.log(s) 
 }
+
+const a = {
+  "name": "ega",
+  "age": 12
+}
+
+console.log(a)
