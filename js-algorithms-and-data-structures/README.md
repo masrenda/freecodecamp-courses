@@ -11,7 +11,7 @@ Along the way, you'll also learn two important programming styles or paradigms: 
 
 - ### [Stage 1](https://github.com/masrenda/freecodecamp-courses/blob/master/js-algorithms-and-data-structures/stage-1/README.md)
 - [ ] Basic Javascript
-- ### [Stage 2]()
+- ### [Stage 2](https://github.com/masrenda/freecodecamp-courses/blob/master/js-algorithms-and-data-structures/stage-2/README.md)
 - [ ] ES6
 - ### [Stage 3]()
 - [ ] Regular Expressions
