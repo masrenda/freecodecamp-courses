@@ -3,7 +3,10 @@
 </p>
 JavaScript is a scripting language you can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.
 
-In this course, you'll learn fundamental programming concepts in JavaScript. You'll start with basic data structures like numbers and strings. Then you'll learn to work with arrays, objects, functions, loops, if/else statements, and more.
+In this course, you'll learn fundamental programming concepts in JavaScript.
+You'll start with basic data structures like numbers and strings. Then you'll
+learn to work with arrays, objects, functions, loops, if/else statements, and
+more.
 
 ## Table of Contents
 
@@ -82,6 +85,22 @@ In this course, you'll learn fundamental programming concepts in JavaScript. You
 73. [Logical Order in If Else Statements](#73-logical-order-in-if-else-statements)
 74. [Chaining If Else Statements](#74-chaining-if-else-statements)
 75. [Golf Code](#75-golf-code)
+76. [Selecting from Many Options with Switch Statements](#76-selecting-from-many-options-with-switch-statements)
+77. [Adding a Default Option in Switch Statements](#77-adding-a-default-option-in-switch-statements)
+78. []()
+79. []()
+80. []()
+81. []()
+82. []()
+83. []()
+84. []()
+85. []()
+86. []()
+87. []()
+88. []()
+89. []()
+90. []()
+91. []()
 
 ## Roadmap
 
@@ -147,7 +166,8 @@ var a = 9;
 
 ### 6. Declare String Variables
 
-Create `two` new string variables: `myFirstName` and `myLastName` and assign them the values of your first and last name, respectively.
+Create `two` new string variables: `myFirstName` and `myLastName` and assign
+them the values of your first and last name, respectively.
 
 ```js
 var myFirstName = "Jhon";
@@ -160,7 +180,8 @@ myFirstName + myLastName;
 
 ### 7. Understanding Uninitialized Variables
 
-Initialize the three variables `a`, `b`, and `c` with `5`, `10`, and `"I am a"` respectively so that they will not be `undefined`.
+Initialize the three variables `a`, `b`, and `c` with `5`, `10`, and `"I am a"`
+respectively so that they will not be `undefined`.
 
 ```js
 var a;
@@ -180,7 +201,8 @@ c = c + " String!";
 
 ### 8. Understanding Case Sensitivity in Variables
 
-Modify the existing declarations and assignments so their names use _camelCase_. Do not create any new variables.
+Modify the existing declarations and assignments so their names use _camelCase_.
+Do not create any new variables.
 
 ```js
 var studlyCapVar;
@@ -207,7 +229,11 @@ let catSound = "Meow!";
 
 ### 10. Declare a read-only Variable with The const Keyword
 
-Change the code so that all variables are declared using `let` or `const`. Use `let` when you want the variable to change, and `const` when you want the variable to remain constant. Also, rename variables declared with `const` to conform to common practices. Do not change the strings assigned to the variables.
+Change the code so that all variables are declared using `let` or `const`. Use
+`let` when you want the variable to change, and `const` when you want the
+variable to remain constant. Also, rename variables declared with `const` to
+conform to common practices. Do not change the strings assigned to the
+variables.
 
 ```js
 const FCC = "freeCodeCamp";
@@ -285,7 +311,8 @@ myVar--;
 
 ### 17. Create Decimal Number with Javascript
 
-Create a variable `myDecimal` and give it a decimal value with a fractional part (e.g. `5.7`).
+Create a variable `myDecimal` and give it a decimal value with a fractional part
+(e.g. `5.7`).
 
 ```js
 const ourDecimal = 5.7;
@@ -317,7 +344,8 @@ const quotient = 4.4 / 2.0;
 
 ### 20. Finding a Remainder in JavaScript
 
-Set `remainder` equal to the remainder of `11` divided by `3` using the remainder (`%`) operator.
+Set `remainder` equal to the remainder of `11` divided by `3` using the
+remainder (`%`) operator.
 
 ```js
 const remainder = 2 % 6;
@@ -391,7 +419,8 @@ c /= 11;
 
 ### 25. Escaping Literal Quotes in Strings
 
-Use backslashes to assign a string to the `myStr` variable so that if you were to print it to the console, you would see:
+Use backslashes to assign a string to the `myStr` variable so that if you were
+to print it to the console, you would see:
 
 > I am a "double quoted" string inside "double quotes".
 
@@ -403,9 +432,12 @@ const myStr = 'I am a "double quoted" string inside "double quotes".';
 
 ### 26. Quoting Strings with Single Quotes
 
-Change the provided string to a string with single quotes at the beginning and end and no escape characters.
+Change the provided string to a string with single quotes at the beginning and
+end and no escape characters.
 
-Right now, the `<a>` tag in the string uses double quotes everywhere. You will need to change the outer quotes to single quotes so you can remove the escape characters.
+Right now, the `<a>` tag in the string uses double quotes everywhere. You will
+need to change the outer quotes to single quotes so you can remove the escape
+characters.
 
 ```js
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
@@ -415,15 +447,17 @@ const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 
 ### 27. Escape Sequences in Strings
 
-Assign the following three lines of text into the single variable `myStr` using escape sequences.
+Assign the following three lines of text into the single variable `myStr` using
+escape sequences.
 
-> FirstLine <br>
->       \SecondLine <br>
-> ThirdLine
+> FirstLine <br>       \SecondLine <br> ThirdLine
 
-You will need to use escape sequences to insert special characters correctly. You will also need to follow the spacing as it looks above, with no spaces between escape sequences or words.
+You will need to use escape sequences to insert special characters correctly.
+You will also need to follow the spacing as it looks above, with no spaces
+between escape sequences or words.
 
-Note: The indentation for `SecondLine` is achieved with the tab escape character, not spaces.
+Note: The indentation for `SecondLine` is achieved with the tab escape
+character, not spaces.
 
 ```js
 const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
@@ -433,7 +467,8 @@ const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 
 ### 28. Concatenating Strings with Plus Operator
 
-Build `myStr` from the strings `This is the start`. and `This is the end`. using the `+` operator. Be sure to include a space between the two strings.
+Build `myStr` from the strings `This is the start`. and `This is the end`. using
+the `+` operator. Be sure to include a space between the two strings.
 
 ```js
 const myStr = "This is the start. " + "This is the end.";
@@ -443,7 +478,11 @@ const myStr = "This is the start. " + "This is the end.";
 
 ### 29. Concatenating Strings with Plus Equal Operator
 
-Build `myStr` over several lines by concatenating these two strings: `This is the first sentence`. and `This is the second sentence`. using the `+=` operator. Use the `+=` operator similar to how it is shown in the example and be sure to include a space between the two strings. Start by assigning the first string to `myStr`, then add on the second string.
+Build `myStr` over several lines by concatenating these two strings:
+`This is the first sentence`. and `This is the second sentence`. using the `+=`
+operator. Use the `+=` operator similar to how it is shown in the example and be
+sure to include a space between the two strings. Start by assigning the first
+string to `myStr`, then add on the second string.
 
 ```js
 let myStr = "This is the first sentence. ";
@@ -454,7 +493,8 @@ myStr += "This is the second sentence.";
 
 ### 30. Constructing Strings with Variables
 
-Set `myName` to a string equal to your name and build `myStr` with `myName` between the strings `My name is` and `and I am well!`
+Set `myName` to a string equal to your name and build `myStr` with `myName`
+between the strings `My name is` and `and I am well!`
 
 ```js
 const myName = "Jhon";
@@ -465,7 +505,8 @@ const myStr = "My name is " + myName + "and I am well!";
 
 ### 31. Appending Variables to Strings
 
-Set `someAdjective` to a string of at least 3 characters and append it to `myStr` using the `+=` operator.
+Set `someAdjective` to a string of at least 3 characters and append it to
+`myStr` using the `+=` operator.
 
 ```js
 const someAdjective = "Hello Jhon Doe";
@@ -478,7 +519,8 @@ myStr += someAdjective;
 
 ### 32. Find the Length of a String
 
-Use the `.length` property to set `lastNameLength` to the number of characters in `lastName`.
+Use the `.length` property to set `lastNameLength` to the number of characters
+in `lastName`.
 
 ```js
 let lastNameLength = 0;
@@ -491,7 +533,8 @@ lastNameLength = lastName.length;
 
 ### 33. Use Bracket Notation to Find the First Character in a String
 
-Use bracket notation to find the first character in the `lastName` variable and assign it to `firstLetterOfLastName`.
+Use bracket notation to find the first character in the `lastName` variable and
+assign it to `firstLetterOfLastName`.
 
 ```js
 let firstLetterOfLastName = "";
@@ -504,7 +547,8 @@ firstLetterOfLastName = lastName[0];
 
 ### 34. Understand String Immutability
 
-Correct the assignment to `myStr` so it contains the string value of `Hello World` using the approach shown in the example above.
+Correct the assignment to `myStr` so it contains the string value of
+`Hello World` using the approach shown in the example above.
 
 ```js
 let myStr = "Jello World";
@@ -516,7 +560,8 @@ myStr = "Hello World";
 
 ### 35. Use Bracket Notation to Find the Nth Character in a String
 
-Let's try to set `thirdLetterOfLastName` to equal the third letter of the `lastName` variable using bracket notation.
+Let's try to set `thirdLetterOfLastName` to equal the third letter of the
+`lastName` variable using bracket notation.
 
 ```js
 const lastName = "Lovelace";
@@ -540,7 +585,8 @@ const lastLetterOfLastName = lastName[lastName.length - 1];
 
 ### 37. Use Bracket Notation to Find the Nth-to-Last Character in a String
 
-Use _bracket notation_ to find the second-to-last character in the `lastName` string.
+Use _bracket notation_ to find the second-to-last character in the `lastName`
+string.
 
 ```js
 const lastName = "Lovelace";
@@ -552,11 +598,18 @@ const secondToLastLetterOfLastName = lastName[lastName.length - 2];
 
 ### 38. Word Blanks
 
-In this challenge, we provide you with a noun, a verb, an adjective and an adverb. You need to form a complete sentence using words of your choice, along with the words we provide.
+In this challenge, we provide you with a noun, a verb, an adjective and an
+adverb. You need to form a complete sentence using words of your choice, along
+with the words we provide.
 
-You will need to use the string concatenation operator `+` to build a new string, using the provided variables: `myNoun`, `myAdjective`, `myVerb`, and `myAdverb`. You will then assign the formed string to the `wordBlanks` variable. You should not change the words assigned to the variables.
+You will need to use the string concatenation operator `+` to build a new
+string, using the provided variables: `myNoun`, `myAdjective`, `myVerb`, and
+`myAdverb`. You will then assign the formed string to the `wordBlanks` variable.
+You should not change the words assigned to the variables.
 
-You will also need to account for spaces in your string, so that the final sentence has spaces between all the words. The result should be a complete sentence.
+You will also need to account for spaces in your string, so that the final
+sentence has spaces between all the words. The result should be a complete
+sentence.
 
 ```js
 const myNoun = "dog";
@@ -571,7 +624,8 @@ const wordBlanks = myNoun + " " + myAdjective + " " + myVerb + " " + myAdverb;
 
 ### 39. Store Multiple Values in one Variable using JavaScript Arrays
 
-Modify the new array `myArray` so that it contains both a string and a number (in that order).
+Modify the new array `myArray` so that it contains both a string and a number
+(in that order).
 
 ```js
 const myArray = ["jhon", 2];
@@ -591,7 +645,8 @@ const myArray = [["Jhon"], ["Doe"]];
 
 ### 41. Access Array Data with Indexes
 
-Create a variable called `myData` and set it to equal the first value of `myArray` using bracket notation.
+Create a variable called `myData` and set it to equal the first value of
+`myArray` using bracket notation.
 
 ```js
 const myArray = [50, 60, 70];
@@ -615,7 +670,8 @@ myArray[0] = 45;
 
 ### 43. Access Multi-Dimensional Arrays With Indexes
 
-Using bracket notation select an element from `myArray` such that `myData` is equal to `8`.
+Using bracket notation select an element from `myArray` such that `myData` is
+equal to `8`.
 
 ```js
 const myArray = [
@@ -647,7 +703,8 @@ myArray.push(["dog", 3]);
 
 ### 45. Manipulate Arrays With pop()
 
-Use the `.pop()` function to remove the last item from `myArray` and assign the popped off value to a new variable, `removedFromMyArray`.
+Use the `.pop()` function to remove the last item from `myArray` and assign the
+popped off value to a new variable, `removedFromMyArray`.
 
 ```js
 const myArray = [
@@ -662,7 +719,8 @@ const removedFromMyArray = myArray.pop();
 
 ### 46. Manipulate Arrays With shift()
 
-Use the `.shift()` function to remove the first item from `myArray` and assign the "shifted off" value to a new variable, `removedFromMyArray`.
+Use the `.shift()` function to remove the first item from `myArray` and assign
+the "shifted off" value to a new variable, `removedFromMyArray`.
 
 ```js
 const myArray = [
@@ -693,9 +751,11 @@ myArray.unshift(["Paul", 35]);
 
 ### 48. Shopping List
 
-Create a shopping list in the variable `myList`. The list should be a multi-dimensional array containing several sub-arrays.
+Create a shopping list in the variable `myList`. The list should be a
+multi-dimensional array containing several sub-arrays.
 
-The first element in each sub-array should contain a string with the name of the item. The second element should be a number representing the quantity i.e.
+The first element in each sub-array should contain a string with the name of the
+item. The second element should be a number representing the quantity i.e.
 
 > ```js
 > ["Chocolate Bar", 15];
@@ -717,7 +777,8 @@ var myList = [
 
 ### 49. Write Reusable JavaScript with Functions
 
-1. Create a function called `reusableFunction` which prints the string `Hi World` to the dev console.
+1. Create a function called `reusableFunction` which prints the string
+   `Hi World` to the dev console.
 2. Call the function.
 
 ```js
@@ -732,7 +793,8 @@ reusableFunction();
 
 ### 50. Passing Values to Functions with Arguments
 
-1. Create a function called `functionWithArgs` that accepts two arguments and outputs their sum to the dev console.
+1. Create a function called `functionWithArgs` that accepts two arguments and
+   outputs their sum to the dev console.
 2. Call the function with two numbers as arguments.
 
 ```js
@@ -747,7 +809,8 @@ functionWithArgs(7, 3);
 
 ### 51. Return a Value from a Function with Return
 
-Create a function `timesFive` that accepts one argument, multiplies it by `5`, and returns the new value.
+Create a function `timesFive` that accepts one argument, multiplies it by `5`,
+and returns the new value.
 
 ```js
 function timesFive(num) {
@@ -761,9 +824,11 @@ timesFive(1);
 
 ### 52. Global Scope and Functions
 
-Using `let` or `const`, declare a global variable named `myGlobal` outside of any function. Initialize it with a value of `10`.
+Using `let` or `const`, declare a global variable named `myGlobal` outside of
+any function. Initialize it with a value of `10`.
 
-Inside function `fun1`, assign `5` to `oopsGlobal` _without_ using the `var`, `let` or `const` keywords.
+Inside function `fun1`, assign `5` to `oopsGlobal` _without_ using the `var`,
+`let` or `const` keywords.
 
 ```js
 let myGlobal = 10;
@@ -788,9 +853,12 @@ function fun2() {
 
 ### 53. Local Scope and Functions
 
-The editor has two `console.log`s to help you see what is happening. Check the console as you code to see how it changes. Declare a local variable `myVar` inside `myLocalScope` and run the tests.
+The editor has two `console.log`s to help you see what is happening. Check the
+console as you code to see how it changes. Declare a local variable `myVar`
+inside `myLocalScope` and run the tests.
 
-Note: The console will still display `ReferenceError: myVar is not defined`, but this will not cause the tests to fail.
+Note: The console will still display `ReferenceError: myVar is not defined`, but
+this will not cause the tests to fail.
 
 ```js
 function myLocalScope() {
@@ -807,7 +875,8 @@ console.log("outside myLocalScope", myVar);
 
 ### 54. Global vs. Local Scope in Functions
 
-Add a local variable to `myOutfit` function to override the value of `outerWear` with the string `sweater`.
+Add a local variable to `myOutfit` function to override the value of `outerWear`
+with the string `sweater`.
 
 ```js
 const outerWear = "T-Shirt";
@@ -824,7 +893,8 @@ myOutfit();
 
 ### 55. Understanding Undefined Value returned from a Function
 
-Create a function `addFive` without any arguments. This function adds 5 to the `sum` variable, but its returned value is `undefined`.
+Create a function `addFive` without any arguments. This function adds 5 to the
+`sum` variable, but its returned value is `undefined`.
 
 ```js
 let sum = 0;
@@ -845,7 +915,8 @@ addFive();
 
 ### 56. Assignment with a Returned Value
 
-Call the `processArg` function with an argument of `7` and assign its return value to the variable `processed`.
+Call the `processArg` function with an argument of `7` and assign its return
+value to the variable `processed`.
 
 ```js
 let processed = 0;
@@ -861,9 +932,11 @@ processed = processArg(7);
 
 ### 57. Stand in Line
 
-Write a function `nextInLine` which takes an array (`arr`) and a number (`item`) as arguments.
+Write a function `nextInLine` which takes an array (`arr`) and a number (`item`)
+as arguments.
 
-Add the number to the end of the array, then remove the first element of the array.
+Add the number to the end of the array, then remove the first element of the
+array.
 
 The `nextInLine` function should then return the element that was removed.
 
@@ -884,7 +957,8 @@ console.log("After: " + JSON.stringify(testArr));
 
 ### 58. Understanding Boolean Values
 
-Modify the `welcomeToBooleans` function so that it returns `true` instead of `false` when the run button is clicked.
+Modify the `welcomeToBooleans` function so that it returns `true` instead of
+`false` when the run button is clicked.
 
 ```js
 function welcomeToBooleans() {
@@ -896,7 +970,8 @@ function welcomeToBooleans() {
 
 ### 59. Use Conditional Logic with If Statements
 
-Create an `if` statement inside the function to return `Yes, that was true` if the parameter `wasThatTrue` is `true` and return `No, that was false` otherwise.
+Create an `if` statement inside the function to return `Yes, that was true` if
+the parameter `wasThatTrue` is `true` and return `No, that was false` otherwise.
 
 ```js
 function trueOrFalse(wasThatTrue) {
@@ -911,7 +986,8 @@ function trueOrFalse(wasThatTrue) {
 
 ### 60. Comparison with the Equality Operator
 
-Add the equality operator to the indicated line so that the function will return the string `Equal` when `val` is equivalent to `12`.
+Add the equality operator to the indicated line so that the function will return
+the string `Equal` when `val` is equivalent to `12`.
 
 ```js
 function testEqual(val) {
@@ -928,7 +1004,8 @@ testEqual(10);
 
 ### 61. Comparison with the Strict Equality Operator
 
-Use the strict equality operator in the `if` statement so the function will return the string `Equal` when `val` is strictly equal to `7`.
+Use the strict equality operator in the `if` statement so the function will
+return the string `Equal` when `val` is strictly equal to `7`.
 
 ```js
 function testStrict(val) {
@@ -945,7 +1022,9 @@ testStrict(10);
 
 ### 62. Practice comparing different values
 
-The `compareEquality` function in the editor compares two values using the equality operator. Modify the function so that it returns the string `Equal` only when the values are strictly equal.
+The `compareEquality` function in the editor compares two values using the
+equality operator. Modify the function so that it returns the string `Equal`
+only when the values are strictly equal.
 
 ```js
 function compareEquality(a, b) {
@@ -962,7 +1041,8 @@ compareEquality(10, "10");
 
 ### 63. Comparison with the Inequality Operator
 
-Add the inequality operator `!=` in the `if` statement so that the function will return the string `Not Equal` when val is not equivalent to `99`.
+Add the inequality operator `!=` in the `if` statement so that the function will
+return the string `Not Equal` when val is not equivalent to `99`.
 
 ```js
 function testNotEqual(val) {
@@ -979,7 +1059,8 @@ testNotEqual(10);
 
 ### 64. Comparison with the Strict Inequality Operator
 
-Add the strict inequality operator to the `if` statement so the function will return the string `Not Equal` when `val` is not strictly equal to `17`.
+Add the strict inequality operator to the `if` statement so the function will
+return the string `Not Equal` when `val` is not strictly equal to `17`.
 
 ```js
 function testStrictNotEqual(val) {
@@ -996,7 +1077,8 @@ testStrictNotEqual(10);
 
 ### 65. Comparison with the Greater Than Operator
 
-Add the greater than operator to the indicated lines so that the return statements make sense.
+Add the greater than operator to the indicated lines so that the return
+statements make sense.
 
 ```js
 function testGreaterThan(val) {
@@ -1018,7 +1100,8 @@ testGreaterThan(10);
 
 ### 66. Comparison with the Greater Than Or Equal To Operator
 
-Add the greater than or equal to operator to the indicated lines so that the return statements make sense.
+Add the greater than or equal to operator to the indicated lines so that the
+return statements make sense.
 
 ```js
 function testGreaterOrEqual(val) {
@@ -1040,7 +1123,8 @@ testGreaterOrEqual(10);
 
 ### 67. Comparison with the Less Than Operator
 
-Add the less than operator to the indicated lines so that the return statements make sense.
+Add the less than operator to the indicated lines so that the return statements
+make sense.
 
 ```js
 function testLessThan(val) {
@@ -1062,7 +1146,8 @@ testLessThan(10);
 
 ### 68. Comparison with the Less Than Or Equal To Operator
 
-Add the less than or equal to operator to the indicated lines so that the return statements make sense.
+Add the less than or equal to operator to the indicated lines so that the return
+statements make sense.
 
 ```js
 function testLessOrEqual(val) {
@@ -1084,7 +1169,9 @@ testLessOrEqual(10);
 
 ### 69. Comparisons with the Logical And Operator
 
-Replace the two if statements with one statement, using the `&&` operator, which will return the string `Yes` if `val` is less than or equal to `50` and greater than or equal to `25`. Otherwise, will return the string `No`.
+Replace the two if statements with one statement, using the `&&` operator, which
+will return the string `Yes` if `val` is less than or equal to `50` and greater
+than or equal to `25`. Otherwise, will return the string `No`.
 
 ```js
 function testLogicalAnd(val) {
@@ -1102,7 +1189,9 @@ testLogicalAnd(10);
 
 ### 70. Comparisons with the Logical Or Operator
 
-Combine the two `if` statements into one statement which returns the string `Outside` if `val` is not between `10` and `20`, inclusive. Otherwise, return the string `Inside`.
+Combine the two `if` statements into one statement which returns the string
+`Outside` if `val` is not between `10` and `20`, inclusive. Otherwise, return
+the string `Inside`.
 
 ```js
 function testLogicalOr(val) {
@@ -1161,7 +1250,8 @@ testElseIf(7);
 
 ### 73. Logical Order in If Else Statements
 
-Change the order of logic in the function so that it will return the correct statements in all cases.
+Change the order of logic in the function so that it will return the correct
+statements in all cases.
 
 ```js
 function orderMyLogic(val) {
@@ -1183,11 +1273,9 @@ orderMyLogic(7);
 
 Write chained `if/else if` statements to fulfill the following conditions:
 
-`num < 5` - return `Tiny` <br>
-`num < 10` - return `Small` <br>
-`num < 15` - return `Medium` <br>
-`num < 20` - return `Large` <br>
-`num >= 20` - return `Huge`
+`num < 5` - return `Tiny` <br> `num < 10` - return `Small` <br> `num < 15` -
+return `Medium` <br> `num < 20` - return `Large` <br> `num >= 20` - return
+`Huge`
 
 ```js
 function testSize(num) {
@@ -1213,9 +1301,14 @@ testSize(7);
 
 ### 75. Golf Code
 
-In the game of Golf, each hole has a `par`, meaning, the average number of `strokes` a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below `par` your `strokes` are, there is a different nickname.
+In the game of Golf, each hole has a `par`, meaning, the average number of
+`strokes` a golfer is expected to make in order to sink the ball in the hole to
+complete the play. Depending on how far above or below `par` your `strokes` are,
+there is a different nickname.
 
-Your function will be passed `par` and `strokes` arguments. Return the correct string according to this table which lists the strokes in order of priority; top (highest) to bottom (lowest):
+Your function will be passed `par` and `strokes` arguments. Return the correct
+string according to this table which lists the strokes in order of priority; top
+(highest) to bottom (lowest):
 
 | Strokes    | Return         |
 | ---------- | -------------- |
@@ -1227,7 +1320,8 @@ Your function will be passed `par` and `strokes` arguments. Return the correct s
 | par + 2    | "Double Bogey" |
 | >= par + 3 | "Go Home!"     |
 
-`par` and `strokes` will always be numeric and positive. We have added an array of all the names for your convenience.
+`par` and `strokes` will always be numeric and positive. We have added an array
+of all the names for your convenience.
 
 ```js
 const names = [
@@ -1265,12 +1359,10 @@ golfScore(5, 4);
 
 ### 76. Selecting from Many Options with Switch Statements
 
-Write a switch statement which tests `val` and sets `answer` for the following conditions:
+Write a switch statement which tests `val` and sets `answer` for the following
+conditions:
 
-`1` - `alpha` <br>
-`2` - `beta` <br>
-`3` - `gamma` <br>
-`4` - `delta` <br>
+`1` - `alpha` <br> `2` - `beta` <br> `3` - `gamma` <br> `4` - `delta` <br>
 
 ```js
 function caseInSwitch(val) {
@@ -1298,7 +1390,34 @@ caseInSwitch(1);
 
 [Back to Top](#table-of-contents)
 
-### 77.
+### 77. Adding a Default Option in Switch Statements
+
+Write a switch statement to set `answer` for the following conditions: `a` -
+`apple` `b` - `bird` `c` - `cat` default - stuff
+
+```js
+function switchOfStuff(val) {
+	let answer = "";
+	switch (val) {
+		case "a":
+			return "apple";
+			break;
+		case "b":
+			return "bird";
+			break;
+		case "c":
+			return "cat";
+			break;
+		default:
+			return "stuff";
+			break;
+	}
+
+	return answer;
+}
+
+switchOfStuff(1);
+```
 
 [Back to Top](#table-of-contents)
 
