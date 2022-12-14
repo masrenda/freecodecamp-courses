@@ -1,5 +1,5 @@
 <p align="left">
-    <img src="https://i.postimg.cc/brpV1vM8/image.png" />
+    <img src="https://i.postimg.cc/2yWVnQqd/image.png" />
 </p>
 JavaScript is a scripting language you can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.
 
@@ -8,23 +8,25 @@ You'll start with basic data structures like numbers and strings. Then you'll
 learn to work with arrays, objects, functions, loops, if/else statements, and
 more.
 
+#PROGRESSSSS BRUH
+
 ## Table of Contents
 
-1. [Comment Your Javascript Code](#1-comment-your-javascript-code)
-2. [Declare Javascript Variales](#2-declare-javascript-variables)
-3. [Storing Values with The Assignment Operator](#3-storing-values-with-the-assignment-operator)
-4. [Assigning The Value of One Variable to Another](#4-assigning-the-value-of-one-variable-to-another)
-5. [Initializing Variables with The Assignment Operator](#5-initializing-variables-with-the-assignment-operator)
-6. [Declare String Variables](#6-declare-string-variables)
-7. [Understanding Uninitialized Variables](#7-understanding-uninitialized-variables)
-8. [Understanding Case Sensitivity in Variables](#8-understanding-case-sensitivity-in-variables)
-9. [Explore Differences between The var and let Keywords](#9-explore-differences-between-the-var-and-let-keywords)
-10. [Declare a read-only Variable with The const Keyword](#10-declare-a-read-only-variable-with-the-const-keyword)
-11. [Add Two Number with Javascript](#11-add-two-number-with-javascript)
-12. [Subtract One Number from Another with Javascript](#12-subtract-one-number-from-another-with-javascript)
-13. [Multiply Two Numbers with Javascript](#13-multiply-two-numbers-with-javascript)
-14. [Divide One Number by Another with Javascript](#14-divide-one-number-by-another-with-javascript)
-15. [Increment a Number with Javascript](#15-increment-a-number-with-javascript)
+1. []()
+2. []()
+3. []()
+4. []()
+5. []()
+6. []()
+7. []()
+8. []()
+9. []()
+10. []()
+11. []()
+12. []()
+13. []()
+14. []()
+15. [Create Strings using Template Literals]()
 16. [Decrement a Number with Javascript](#16-decrement-a-number-with-javascript)
 17. [Create Decimal Number with Javascript](#17-create-decimal-number-with-javascript)
 18. [Multiply Two Decimals with JavaScript](#18-multiply-two-decimals-with-javascript)
